@@ -22,10 +22,9 @@ This course is meticulously designed to provide a solid foundation in programmin
 - The course is scheduled weekly or bi-weekly, each session lasting about 3 hours, combining online and offline methods (腾讯会议) to ensure interactivity and practicality.
 - The curriculum is expected to be offered once per semester or annually, with continual updates and enrichment based on student feedback and research demands.
 
-## Course Outline
-- **Part Zero**: Motivational Introduction
-  - Slide, Video
-- **Part One**: Programming Development Environment and Workflow
+## Course Outline / Schedule
+- **Part Zero**: Motivational Introduction (2023/11/08)
+- **Part One**: Programming Development Environment and Workflow (2023/11/12)
   - Linux Commands and Shell Scripting
   - Git Version Control (GitHub / GitLab)
   - SSH Remote Server Access (Shell / VSCode)
