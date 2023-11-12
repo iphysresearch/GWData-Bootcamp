@@ -68,13 +68,6 @@ To participate in this course:
 
 (Under construction)
 
-## Contributing
-
-We welcome contributions to enhance course materials. Please fork the repository, make your changes, and submit a pull request.
-
-- Staff: This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and (Additional Instructors),
-- Questions: Email us at [📧 taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn)
-
 ## Staff
 This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers and industry experts, whose names will be announced as they join.
 
@@ -82,6 +75,10 @@ This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and 
 For any inquiries regarding the course, please email us at [📧 taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn).
 
 We look forward to your participation and contribution to this exciting field of study!
+
+## Contributing
+
+We welcome contributions to enhance course materials. Please fork the repository, make your changes, and submit a pull request.
 
 ---
 
