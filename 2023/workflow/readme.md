@@ -4,7 +4,7 @@
 
 
 - 日期：2023-11-12
-- Video：
+- Video：[https://meeting.tencent.com/v2/cloud-record/share?id=af256140-e032-4b0c-9116-5741fad5010b&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=af256140-e032-4b0c-9116-5741fad5010b&from=3)
 - Slide: [https://slides.com/iphysresearch/gwda_coding_1](https://slides.com/iphysresearch/gwda_coding_1)
 
 ## Homework
