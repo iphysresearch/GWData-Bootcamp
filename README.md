@@ -1,12 +1,12 @@
 # 引力波数据探索：编程与分析实战训练营
 # Gravitational Wave Data Exploration: A Practical Training in Programming and Analysis
 
----
-
 > Under construction...
 
 Welcome to the GitHub repository for the Gravitational Wave Data Exploration Bootcamp Series! 
 This course is meticulously designed to provide a solid foundation in programming, operational knowledge, and data-driven modeling skills centered around gravitational wave data analysis and research.
+
+<img src="logo-taiji.jpg" style="width:20%;height:auto;">
 
 ## Training Objectives
 - Equip participants with robust programming and operational skills, and foundational training in data-driven modeling, focusing on gravitational wave data analysis and related research areas.
@@ -55,11 +55,6 @@ This course is meticulously designed to provide a solid foundation in programmin
   - Hands-On: Identifying Gravitational Waves from Binary Black Hole Systems using CNN
   - Frontiers of Gravitational Wave Data Analysis and AI
 
-## Collaborating Institutions
-- University of Chinese Academy of Sciences (UCAS)
-- International Centre for Theoretical Physics Asia-Pacific (ICTP-AP)
-- Taiji Laboratory for Gravitational Wave Universe
-
 ## Getting Started
 To participate in this course:
 
@@ -82,7 +77,18 @@ We look forward to your participation and contribution to this exciting field of
 
 We welcome contributions to enhance course materials. Please fork the repository, make your changes, and submit a pull request.
 
----
+## Collaborating Institutions
+- [University of Chinese Academy of Sciences](http://english.ucas.ac.cn/) (UCAS)
+
+  <img src="logo-ucas.png" style="width:30%;height:auto;">
+
+- [International Centre for Theoretical Physics Asia-Pacific](https://ictp-ap.org/) (ICTP-AP)
+
+  <img src="logo-ictp-ap.png" style="width:30%;height:auto;"> 
+  
+- [Taiji Laboratory for Gravitational Wave Universe](https://ictp-ap.org/page/taiji-laboratory)
+
+  <img src="logo-taiji-lab.png" style="width:20%;height:auto;">
 
 ## License
 
