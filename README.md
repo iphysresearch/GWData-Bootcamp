@@ -1,6 +1,8 @@
 # 引力波数据探索：编程与分析实战训练营
 # Gravitational Wave Data Exploration: A Practical Training in Programming and Analysis
 
+---
+
 > Under construction...
 
 Welcome to the GitHub repository for the Gravitational Wave Data Exploration Bootcamp Series! 
@@ -23,8 +25,8 @@ This course is meticulously designed to provide a solid foundation in programmin
 - The curriculum is expected to be offered once per semester or annually, with continual updates and enrichment based on student feedback and research demands.
 
 ## Course Outline / Schedule
-- **Part Zero**: Motivational Introduction (2023/11/08)
-- **Part One**: Programming Development Environment and Workflow (2023/11/12)
+- **Part Zero**: Motivational Introduction: [2023/11/08](2023/intro/readme.md)
+- **Part One**: Programming Development Environment and Workflow: [2023/11/12](2023/workflow/readme.md)
   - Linux Commands and Shell Scripting
   - Git Version Control (GitHub / GitLab)
   - SSH Remote Server Access (Shell / VSCode)
@@ -88,6 +90,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Contributions from the open-source gravitational wave community.
+- Contributions from the Gravitational Wave Open Science Center ([gwosc.org](https://gwosc.org/)).
 - Educational resources and datasets from renowned institutions and projects in the field.
 
