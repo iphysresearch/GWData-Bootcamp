@@ -8,6 +8,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
 ## Training Objectives
 - Equip participants with robust programming and operational skills, and foundational training in data-driven modeling, focusing on gravitational wave data analysis and related research areas.
+- **Note: The course is conducted entirely in Mandarin Chinese to cater to a wide range of Chinese-speaking students and researchers.**
 - Discuss the common research methodologies combining gravitational wave data processing with AI technologies, with hands-on examples and projects for practical understanding and mastery.
 - Analyze cutting-edge deep learning models and apply them to real-world gravitational wave data analysis problems through specific case studies.
 
@@ -72,8 +73,18 @@ To participate in this course:
 
 We welcome contributions to enhance course materials. Please fork the repository, make your changes, and submit a pull request.
 
-- Staff: This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and (appending),
-- Questions: Email us at [taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn)
+- Staff: This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and (Additional Instructors),
+- Questions: Email us at [📧 taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn)
+
+## Staff
+This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers and industry experts, whose names will be announced as they join.
+
+## Questions
+For any inquiries regarding the course, please email us at [📧 taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn).
+
+We look forward to your participation and contribution to this exciting field of study!
+
+---
 
 ## License
 
