@@ -26,7 +26,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
 ## Course Outline / Schedule
 - **Part Zero**: Motivational Introduction: [2023/11/08](2023/intro/readme.md)
-- **Part One**: Programming Development Environment and Workflow: [2023/11/12](2023/workflow/readme.md)
+- **Part One**: Programming Development Environment and Workflow: [2023/11/12](2023/workflow/readme.md#2023-11-12), [2023/11/19](2023/workflow/readme.md#2023-11-19)
   - Linux Commands and Shell Scripting
   - Git Version Control (GitHub / GitLab)
   - SSH Remote Server Access (Shell / VSCode)
