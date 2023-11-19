@@ -66,7 +66,7 @@ To participate in this course:
 (Under construction)
 
 ## Staff
-This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers and industry experts, whose names will be announced as they join.
+This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers and industry experts ([Richard](https://www.zhihu.com/people/winchester-26/activities)), whose names will be announced as they join.
 
 ## Questions
 For any inquiries regarding the course, please email us at [📧 taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn).
