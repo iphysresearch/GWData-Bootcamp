@@ -25,48 +25,156 @@ This course is meticulously designed to provide a solid foundation in programmin
 - The curriculum is expected to be offered once per semester or annually, with continual updates and enrichment based on student feedback and research demands.
 
 ## Course Outline / Schedule
-- **Part Zero**: Motivational Introduction: [2023/11/08](2023/intro/readme.md)
-- **Part One**: Programming Development Environment and Workflow: [2023/11/12](2023/workflow/readme.md#2023-11-12), [2023/11/19](2023/workflow/readme.md#2023-11-19)
-  - Linux Commands and Shell Scripting
-  - Git Version Control (GitHub / GitLab)
-  - SSH Remote Server Access (Shell / VSCode)
-  - Containerization with Docker
-  - Hands-On: Setting up Python / Jupyter Development Environment
-  - Hands-On: Compiling LALsuite / LISAcode Source Code
+- **Part Zero**: _Motivational Introduction_
 
-- **Part Two**: Python-Based Data Analysis Fundamentals
-  - Introduction to Python Programming
-  - Algorithms with Numpy / Pandas / Scipy
-  - Hands-On: Exploratory Data Analysis of GW Event Catalog / Glitch Data
-  - Hands-On: Matched Filtering for GW150914 Data
-  - Data Visualization in Python: Theory and Practice
-  - Hands-On: Reproducing Figures from GWTC Papers
+    <details>
+    <summary>Description</summary>
+      123
+    </details>
 
-- **Part Three**: Basics of Machine Learning
-  - Overview of Artificial Intelligence
-  - Definitions, Objectives, and Types of Machine Learning
-  - Machine Learning Project Development and Preparation
-  - Hands-On: Clustering Analysis of LIGO's Glitch Data
+  - Date：[2023/11/08](2023/intro/readme.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=a1f3c150-eeb3-4266-a4cc-4099bb28d382&from=3) | Slide: [PDF](2023/intro/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_0)
+- **Part One**: _Programming Development Environment and Workflow_
+    <details>
+    <summary>Description</summary>
+  
+      - Linux Commands and Shell Scripting
+      - Git Version Control (GitHub / GitLab)
+      - SSH Remote Server Access (Shell / VSCode)
+      - Containerization with Docker
+      - Hands-On: Setting up Python / Jupyter Development Environment
+      - Hands-On: Compiling LALsuite / LISAcode Source Code
 
-- **Part Four**: Introduction to Deep Learning
-  - Overview of Deep Learning Technologies
-  - Fundamentals of Artificial Neural Networks (ANN)
-  - Convolutional Neural Networks (CNN)
-  - Hands-On: Identifying Gravitational Waves from Binary Black Hole Systems using CNN
-  - Frontiers of Gravitational Wave Data Analysis and AI
+    </details>
+
+  - Date：[2023/11/12](2023/workflow/readme.md#2023-11-12) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=af256140-e032-4b0c-9116-5741fad5010b&from=3) | Slide: [PDF](2023/workflow/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1) | [Homework](2023/workflow/readme.md#homework)
+  - Date：[2023/11/19](2023/workflow/readme.md#2023-11-19) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=d1e10208-857a-429c-80ee-8a5bfbb88d52&from=3) | Slide: [PDF](2023/workflow/slide_git.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1_git) | [Homework](2023/workflow/readme.md#homework-1)
+- **Tech Talk**: _It's all about data_ (Guest Lecture by [Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities))
+    <details>
+    <summary>Description</summary>
+  
+      - 数据的起源 (The origin of data)
+      - 何谓数据？ (What is data?)
+      - 现代数据技术的发展脉络 (The development momentum behind data)
+      - 当前主流数据技术 (Modern data technologies)
+        - 关系型数据库 (RDBMS)
+        - 非关系型数据库 (Not-only SQL (NoSQL) Database)
+        - 大数据 (Big Data)
+        - 数据仓库 (Data Warehouse)
+        - 流式计算 (Stream Processing)
+        - 数据湖 (Data Lake)
+        - 数据湖仓 (Data Lakehouse)
+      - 思考：从数据的角度认识世界 (Thinking: Realizing the world from a data perspective)
+      - 推荐阅读 (Recommend readings)
+      - Q & A
+  
+    </details>
+
+  - Date：[2023/11/19](2023/TechTalk1/readme.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=8582150d-9dae-4938-b912-162e6b98bf63&from=3) | Slide: [markdown](2023/TechTalk1/readme.md)
+    
+- **Part Two**: _Python-Based Data Analysis Fundamentals_
+    <details>
+    <summary>Description</summary>
+  
+      - Introduction to Python Programming
+      - Algorithms with Numpy / Pandas / Scipy
+      - Hands-On: Exploratory Data Analysis of GW Event Catalog / Glitch Data
+      - Hands-On: Matched Filtering for GW150914 Data
+      - Data Visualization in Python: Theory and Practice
+      - Hands-On: Reproducing Figures from GWTC Papers
+
+    </details>
+
+
+- **Part Three**: _Basics of Machine Learning_
+    <details>
+    <summary>Description</summary>
+  
+      - Overview of Artificial Intelligence
+      - Definitions, Objectives, and Types of Machine Learning
+      - Machine Learning Project Development and Preparation
+      - Hands-On: Clustering Analysis of LIGO's Glitch Data
+
+    </details>
+
+- **Part Four**: _Introduction to Deep Learning_
+    <details>
+    <summary>Description</summary>
+    
+      - Overview of Deep Learning Technologies
+      - Fundamentals of Artificial Neural Networks (ANN)
+      - Convolutional Neural Networks (CNN)
+      - Hands-On: Identifying Gravitational Waves from Binary Black Hole Systems using CNN
+      - Frontiers of Gravitational Wave Data Analysis and AI
+
+    </details>
+
 
 ## Getting Started
-To participate in this course:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/iphysresearch/GWData-Bootcamp.git
-   ```
+Welcome to the course project! To get started with your programming assignments, you'll need to set up your workspace. Here's a step-by-step guide to help you through the process.
 
-(Under construction)
+### Step 1: Set Up Your GitHub Account and Fork the Repository
+
+1. **Create a GitHub Account**: If you don't already have a GitHub account, go to [GitHub](https://github.com/) and sign up.
+2. **Fork the Course Repository**:
+    - Navigate to the course's GitHub repository: [GWData-Bootcamp](https://github.com/iphysresearch/GWData-Bootcamp).
+    - Click on the `Fork` button at the top right of the page.
+    - In the fork settings, make sure to **uncheck** the option 'copy `main` branch only'.
+3. **Clone the Forked Repository**:
+    - Open your terminal or Git Bash.
+    - Clone the forked repository to your local machine using the following command:
+      ```shell
+      git clone git@github.com:<YourGitHubUsername>/GWData-Bootcamp.git
+      ```
+    - Replace `<YourGitHubUsername>` with your actual GitHub username.
+
+### Step 2: Set Up Your Local Workspace
+
+1. **Switch to the `homework` Branch**:
+    - Navigate to your cloned repository's directory:
+      ```shell
+      cd GWData-Bootcamp
+      ```
+    - Switch to the `homework` branch using:
+      ```shell
+      git switch homework
+      ```
+2. **Create Your Personal Homework Directory**:
+    - Inside the `GWData-Bootcamp` directory, create a new directory path for your homework submissions:
+      ```shell
+      mkdir -p 2023/homework/<YourName>
+      ```
+      - Replace `<YourName>` with your name or a unique identifier.
+
+### Step 3: Submitting Your Homework
+
+1. **Complete Your Assignments**:
+     - Add your completed assignments to your personal homework directory that you created in the previous step.
+2. **Push Your Changes**:
+     - Stage and commit your changes. For example:
+       ```shell
+       git add .
+       git commit -m "Add homework for Week 1"
+       ```
+     - Push your `homework` branch to your forked repository:
+       ```shell
+       git push origin homework
+       ```
+3. **Create a Pull Request**:
+    - Go to your forked repository on GitHub.
+    - Switch to the `homework` branch.
+    - Click on `New Pull Request`.
+    - Ensure the base repository is set to the original `GWData-Bootcamp` repository and the base branch is set to `homework`.
+    - Complete the PR form and submit.
+
+### Important Notes
+
+- **Do Not Modify Other Students' Work**: It's crucial that you do not make any changes to other students' homework directories and contents.
+- **Regular Updates**: Keep your fork synchronized with the main repository to get the latest updates and assignments.
+- Happy Coding! 🚀👩‍💻👨‍💻
 
 ## Staff
-This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers and industry experts ([Richard](https://www.zhihu.com/people/winchester-26/activities)), whose names will be announced as they join.
+This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers and industry experts ([Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities)), whose names will be announced as they join.
 
 ## Questions
 For any inquiries regarding the course, please email us at [📧 taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn).
