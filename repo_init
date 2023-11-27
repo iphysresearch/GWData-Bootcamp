@@ -1,0 +1,10 @@
+ip:8.141.0.95
+
+root@Alitest1113:~/GIT/GWData-Bootcamp# git switch homework 
+Branch 'homework' set up to track remote branch 'homework' from 'origin'. 
+Switched to a new branch 'homework' 
+
+root@Alitest1113:~/GIT/GWData-Bootcamp# mkdir -p 2023/homework/zl_zhou 
+
+root@Alitest1113:~/GIT/GWData-Bootcamp# git add repository.initiation
+
