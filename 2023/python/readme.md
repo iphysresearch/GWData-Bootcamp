@@ -9,6 +9,13 @@
 - Notebooks:
   - Jupyter Tutorial: [ipynb](./0-jupyter.ipynb) or [html](./0-jupyter.html)
   - Python Tutorial: [ipynb](./1-python.ipynb) or [html](./1-python.html)
+- Extra Bonus: See [Python 补充学习资料包](./Python补充学习资料包)
+  - 【入门】简明Python教程.pdf
+  - 【进阶】利用Python进行数据分析.pdf
+  - 【进阶】Python for Data Analysis, 2nd Edition.pdf
+  - 【高阶】深入理解Python中文版(Dive into Python).pdf
+  - 【官方文档】Python_tutorial.pdf
 
 ### Homework
 
+- 
