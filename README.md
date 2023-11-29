@@ -97,6 +97,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
+  - Date：[2023/11/29](2023/python/readme.md#2023-11-29) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=38d62612-d754-413f-b6a9-2d0d960f4549&from=3) | Slide: [PDF](2023/python/slide_python.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_python) | Homework
 
 - **Part Three**: _Basics of Machine Learning_
     <details>
