@@ -29,7 +29,20 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     <details>
     <summary>Description</summary>
-      123
+
+      - 办课初衷与学员构成
+      - 讲师介绍
+      - 与本课程相关的知识架构
+          - 引力波数据分析
+          - 课程大纲
+          - 本课程是什么，不是什么
+      - 本课程的学习方法与教学团队
+      - 本课程的考核规则和项目作业
+      - 通向自我实现之路
+          - 如何自学
+          - 如何提问
+      - 提问环节
+
     </details>
 
   - Date：[2023/11/08](2023/intro/readme.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=a1f3c150-eeb3-4266-a4cc-4099bb28d382&from=3) | Slide: [PDF](2023/intro/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_0)
@@ -84,6 +97,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
+  - Date：[2023/11/29](2023/python/readme.md#2023-11-29) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=38d62612-d754-413f-b6a9-2d0d960f4549&from=3) | Slide: [PDF](2023/python/slide_python.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_python) | Homework
 
 - **Part Three**: _Basics of Machine Learning_
     <details>
