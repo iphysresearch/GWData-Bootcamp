@@ -165,11 +165,12 @@ Welcome to the course project! To get started with your programming assignments,
 
 1. **Complete Your Assignments**:
      - Add your completed assignments to your personal homework directory that you created in the previous step.
+     - The assignments should be named as `python_submit.txt`, `numpy_submit.txt`, or `pandas_submit.txt` depending on the type of the assignment.
 2. **Push Your Changes**:
      - Stage and commit your changes. For example:
        ```shell
        git add .
-       git commit -m "Add homework for Week 1"
+       git commit -m "Add homework for <SpecificHomework>"
        ```
      - Push your `homework` branch to your forked repository:
        ```shell
@@ -178,15 +179,18 @@ Welcome to the course project! To get started with your programming assignments,
 3. **Create a Pull Request**:
     - Go to your forked repository on GitHub.
     - Switch to the `homework` branch.
-    - Click on `New Pull Request`.
+    - Click on New Pull Request.
     - Ensure the base repository is set to the original `GWData-Bootcamp` repository and the base branch is set to `homework`.
     - Complete the PR form and submit.
+    - The GitHub Actions workflow will automatically check your submission and compare it with the solution. If your submission passes the check, a merge request will be initiated. Please note that only the repository owners have the authority to merge the request.
+
 
 ### Important Notes
 
 - **Do Not Modify Other Students' Work**: It's crucial that you do not make any changes to other students' homework directories and contents.
 - **Regular Updates**: Keep your fork synchronized with the main repository to get the latest updates and assignments.
-- Happy Coding! 🚀👩‍💻👨‍💻
+- Automated Checks: The GitHub Actions workflow will automatically check your submission when you create a pull request. Make sure your submission passes the check before you submit it.
+- Happy Coding! 🚀👩‍💻👨
 
 ## Staff
 This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers and industry experts ([Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities)), whose names will be announced as they join.
