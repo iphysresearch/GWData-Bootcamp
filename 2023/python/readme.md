@@ -46,7 +46,7 @@
 
 2. 将你完成的作业添加到你在上一步中创建的个人作业目录中。根据作业的类型，应将完成的作业分别命名为 `python_submit.txt`、`numpy_submit.txt` 和 `pandas_submit.txt`。其中每个 txt 文档的每行对应于 A,B,C,D,... 等选项当中的一个（注意：行号对应于题号）
 3. 在 `homework` 分支上把你完成的作业 push 到你自己的关于本课程的远程仓库中，即：`$ git push origin homework` ；最后，在GitHub上你的远程仓库中，在 `homework` 分支下发起 Pull Request (PR) 至本课程远程仓库的 `homework` 分支。 
-4. GitHub Actions 工作流将自动检查你的提交和计算成绩，并将 modified 的 `python_submit.txt`、`numpy_submit.txt` 和 `pandas_submit.txt` 与 solution 进行比较。
+4. GitHub Actions 工作流将自动检查你的提交和计算成绩，即将 modified 的 `python_submit.txt`、`numpy_submit.txt` 和 `pandas_submit.txt` 与 solution 进行比较。
 5. 基础作业的最终成绩，根据PR的最新 commit 来定，记得到时候 @ 我记录成绩。
 6. 不要修改其他学员的作业目录和作业内容！
 
