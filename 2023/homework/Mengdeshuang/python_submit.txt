@@ -51,9 +51,9 @@ A
 A
 A
 B
-A
 D
-A
+D
+B
 A
 D
 B
@@ -70,7 +70,7 @@ A
 A
 D
 B
-A
+C
 A
 C
 C
