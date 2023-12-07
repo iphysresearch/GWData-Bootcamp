@@ -23,8 +23,8 @@ D
 C
 A
 D
-D
-C
+B
+A
 B
 A
 C
