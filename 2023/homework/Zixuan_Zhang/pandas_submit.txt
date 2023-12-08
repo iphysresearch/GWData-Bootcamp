@@ -8,5 +8,5 @@ A
 C
 C
 B
-B
+A
 C
