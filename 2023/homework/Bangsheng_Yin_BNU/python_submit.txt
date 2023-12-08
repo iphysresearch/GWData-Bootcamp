@@ -52,7 +52,7 @@ A
 A
 B
 D
-B
+D
 B
 A
 D
@@ -99,7 +99,7 @@ A
 C
 C
 A
-A
+B
 B
 A
 B
