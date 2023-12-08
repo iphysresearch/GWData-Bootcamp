@@ -44,7 +44,7 @@ C
 A
 C
 D
-A
+B
 A
 B
 A
@@ -62,7 +62,7 @@ B
 B
 A
 D
-A
+B
 D
 A
 B
