@@ -25,7 +25,7 @@ A
 D
 B
 B
-B
+A
 A
 C
 C
