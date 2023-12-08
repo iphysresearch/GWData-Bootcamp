@@ -56,10 +56,10 @@ D
 B
 A
 D
-A
+B
 C
 B
-A
+B
 A
 D
 A
@@ -102,7 +102,7 @@ A
 B
 B
 A
-B
+A
 B
 A
 A
