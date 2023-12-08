@@ -62,12 +62,12 @@ B
 B
 A
 D
-B
+A
 D
 A
 B
 A
-B
+A
 D
 B
 C
