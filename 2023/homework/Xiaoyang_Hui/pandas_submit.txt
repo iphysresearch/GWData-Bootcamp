@@ -6,7 +6,7 @@ C
 D
 A
 C
-D
-D
+C
+B
 B
 B
