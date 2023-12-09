@@ -2,11 +2,11 @@ B
 A
 C
 A
-A
+
 D
 A
 C
 C
-A
+
 B
 B
