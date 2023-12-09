@@ -4,9 +4,9 @@ C
 A
 C
 D
-A
+
 C
 C
-A
+
 B
 B
