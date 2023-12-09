@@ -1,12 +1,12 @@
 B
 D
-C
+
 A
 C
 D
 A
 C
 C
-
+D
 B
 B
