@@ -65,12 +65,16 @@
 
 ---
 
-## 2023-12-08
+## 2023-12-08 & 2023-12-10
 - Video: [https://meeting.tencent.com/v2/cloud-record/share?id=dd9f5242-b3a8-4500-9436-ba190a739c10&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=dd9f5242-b3a8-4500-9436-ba190a739c10&from=3)
 - Slide: [PDF](./slide_visualization.pdf) or [https://slides.com/iphysresearch/gwda_coding_2_visualization](https://slides.com/iphysresearch/gwda_coding_2_visualization)
 - Notebooks:
   - Matplotlib Tutorial: [ipynb](./4-matplotlib.ipynb) or [html](./4-matplotlib.html)
+  - Seaborn Tutorial: [ipynb](./4-seaborn.ipynb) or [html](./4-seaborn.html)
 - Extra Bonus: Click [Visualization analysis and design by Tamara Munzner (z-lib.org).pdf](https://paul.zhdk.ch/pluginfile.php/93332/mod_resource/content/2/Visualization%20analysis%20and%20design%20by%20Tamara%20Munzner%20%28z-lib.org%29.pdf) link to view the file.
+- Extra Bonus: [Matplotlib styles for scientific plotting](https://github.com/garrettj403/SciencePlots)
+- Extra Bonus: [Cheatsheets for Matplotlib users](https://github.com/matplotlib/cheatsheets)
+- Note: 2023-12-10 忘了录屏了。。。。
 
 
 ## Homework
