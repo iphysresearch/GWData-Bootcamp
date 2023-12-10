@@ -3,10 +3,10 @@ D
 C
 A
 B
-A
-A
-C
-C
 D
+A
+C
+C
+B
 B
 B
