@@ -71,6 +71,7 @@
 - Notebooks:
   - Matplotlib Tutorial: [ipynb](./4-matplotlib.ipynb) or [html](./4-matplotlib.html)
   - Seaborn Tutorial: [ipynb](./4-seaborn.ipynb) or [html](./4-seaborn.html)
+  - Reproduce Figure 7 from the GWTC-3 paper Tutorial: [ipynb](./4-GWTC3.ipynb) or [html](./4-GWTC.html)
 - Extra Bonus: Click [Visualization analysis and design by Tamara Munzner (z-lib.org).pdf](https://paul.zhdk.ch/pluginfile.php/93332/mod_resource/content/2/Visualization%20analysis%20and%20design%20by%20Tamara%20Munzner%20%28z-lib.org%29.pdf) link to view the file.
 - Extra Bonus: [Matplotlib styles for scientific plotting](https://github.com/garrettj403/SciencePlots)
 - Extra Bonus: [Cheatsheets for Matplotlib users](https://github.com/matplotlib/cheatsheets)
