@@ -109,6 +109,9 @@ This course is meticulously designed to provide a solid foundation in programmin
   - [Homework](2023/python/readme.md#homework)
       - Python, Numpy, Pandas Basic Homework
       - Leetcode Extension Tasks
+  - Date：[2023/12/08](2023/python/readme.md#2023-12-08) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=dd9f5242-b3a8-4500-9436-ba190a739c10&from=3) | Slide: [PDF](2023/python/slide_visualization.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_visualization)
+  - [Homework](2023/python/readme.md#homework-1)
+      - Data visualization and analysis using Python libraries, matplotlib and seaborn. 
 
 - **Part Three**: _Basics of Machine Learning_
     <details>
