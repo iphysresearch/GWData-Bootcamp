@@ -7,6 +7,6 @@ D
 A
 C
 C
-A
+B
 B
 B
