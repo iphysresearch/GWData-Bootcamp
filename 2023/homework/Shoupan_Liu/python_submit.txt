@@ -14,7 +14,7 @@ A
 D
 A
 A
-B
+A
 C
 D
 B
