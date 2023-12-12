@@ -67,7 +67,7 @@ D
 A
 B
 A
-B
+A
 D
 B
 C
