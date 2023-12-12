@@ -16,11 +16,15 @@
   - 【高阶】深入理解Python中文版(Dive into Python).pdf
   - 【官方文档】Python_tutorial.pdf
 
+---
+
 ## 2023-12-01
 - Video: [https://meeting.tencent.com/v2/cloud-record/share?id=0e5f06cb-8c5b-4e28-a1ba-a766025510e4&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=0e5f06cb-8c5b-4e28-a1ba-a766025510e4&from=3)
 - Slide: [PDF](./slide_numpy.pdf) or [https://slides.com/iphysresearch/gwda_coding_2_numpy](https://slides.com/iphysresearch/gwda_coding_2_numpy)
 - Notebooks:
   - Numpy Tutorial: [ipynb](./2-numpy.ipynb) or [html](./2-numpy.html)
+
+---
 
 ## 2023-12-03
 - Video: [https://meeting.tencent.com/v2/cloud-record/share?id=eef300fb-a794-4aff-93e2-0ec36501b1b6&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=eef300fb-a794-4aff-93e2-0ec36501b1b6&from=3)
@@ -29,8 +33,6 @@
   - Pandas Tutorial: [ipynb](./3-pandas.ipynb) or [html](./3-pandas.html)
   - GW Catalog 数据分析案例: [ipynb](./3-pandas-GW_Catalog.ipynb)
   - 股票数据分析案例: [ipynb](./3-pandas-Finance.ipynb)
-
-
 
 ## Homework
 
@@ -60,3 +62,38 @@
 - [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) (中级)
 2. 把上面5道算法题目的结果 comment 在你完成的基础作业的PR里，要求：**算法的每一行都写好中文说明注释**。
 3. Want more? see: [Advent of Code](https://adventofcode.com/)
+
+---
+
+## 2023-12-08
+- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=dd9f5242-b3a8-4500-9436-ba190a739c10&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=dd9f5242-b3a8-4500-9436-ba190a739c10&from=3)
+- Slide: [PDF](./slide_visualization.pdf) or [https://slides.com/iphysresearch/gwda_coding_2_visualization](https://slides.com/iphysresearch/gwda_coding_2_visualization)
+- Notebooks:
+  - Matplotlib Tutorial: [ipynb](./4-matplotlib.ipynb) or [html](./4-matplotlib.html)
+- Extra Bonus: Click [Visualization analysis and design by Tamara Munzner (z-lib.org).pdf](https://paul.zhdk.ch/pluginfile.php/93332/mod_resource/content/2/Visualization%20analysis%20and%20design%20by%20Tamara%20Munzner%20%28z-lib.org%29.pdf) link to view the file.
+
+## 2023-12-10
+- Video: [https://pan.baidu.com/s/1MiqCAMGP7-B76uOHCDgErg?pwd=ph8c](https://pan.baidu.com/s/1MiqCAMGP7-B76uOHCDgErg?pwd=ph8c)
+- Notebooks:
+  - Matplotlib Tutorial: [ipynb](./4-matplotlib.ipynb) or [html](./4-matplotlib.html)
+  - Seaborn Tutorial: [ipynb](./4-seaborn.ipynb) or [html](./4-seaborn.html)
+  - Reproduce Figure 7 from the GWTC-3 paper Tutorial: [ipynb](./4-GWTC3.ipynb) or [html](./4-GWTC.html)
+- Extra Bonus: [Matplotlib styles for scientific plotting](https://github.com/garrettj403/SciencePlots)
+- Extra Bonus: [Cheatsheets for Matplotlib users](https://github.com/matplotlib/cheatsheets)
+- Note: 2023-12-10 忘了录屏了。。。。感谢杨铭森同学的贡献！
+
+
+## Homework
+
+- 航班乘客变化分析 (2个题)​​​​​
+- 鸢尾花花型尺寸分析 (3个题)
+- 餐厅小费情况分析 (7个题)
+- 泰坦尼克号海难幸存状况分析 (8个题)
+
+### 基础作业
+
+- 数据可视化作业题目位于 [homework-matplotlib_seaborn.ipynb](./homework-matplotlib_seaborn.ipynb)，用 matplotlib 或 seaborn 完成题目后，把该 notebook 提交到学员自己的作业目录中，最后 PR 即可。
+
+### 拓展作业
+
+- 分别用 matplotlib 和 seaborn 完成基础作业。
