@@ -25,6 +25,7 @@ A
 D
 D
 B
+B
 A
 C
 C
