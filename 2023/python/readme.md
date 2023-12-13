@@ -72,6 +72,16 @@
   - Matplotlib Tutorial: [ipynb](./4-matplotlib.ipynb) or [html](./4-matplotlib.html)
 - Extra Bonus: Click [Visualization analysis and design by Tamara Munzner (z-lib.org).pdf](https://paul.zhdk.ch/pluginfile.php/93332/mod_resource/content/2/Visualization%20analysis%20and%20design%20by%20Tamara%20Munzner%20%28z-lib.org%29.pdf) link to view the file.
 
+## 2023-12-10
+- Video: [https://pan.baidu.com/s/1MiqCAMGP7-B76uOHCDgErg?pwd=ph8c](https://pan.baidu.com/s/1MiqCAMGP7-B76uOHCDgErg?pwd=ph8c)
+- Notebooks:
+  - Matplotlib Tutorial: [ipynb](./4-matplotlib.ipynb) or [html](./4-matplotlib.html)
+  - Seaborn Tutorial: [ipynb](./4-seaborn.ipynb) or [html](./4-seaborn.html)
+  - Reproduce Figure 7 from the GWTC-3 paper Tutorial: [ipynb](./4-GWTC3.ipynb) or [html](./4-GWTC.html)
+- Extra Bonus: [Matplotlib styles for scientific plotting](https://github.com/garrettj403/SciencePlots)
+- Extra Bonus: [Cheatsheets for Matplotlib users](https://github.com/matplotlib/cheatsheets)
+- Note: 2023-12-10 忘了录屏了。。。。感谢杨铭森同学的贡献！
+
 
 ## Homework
 
