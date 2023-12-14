@@ -39,6 +39,7 @@ jobs:
           FILE_COUNT=$(echo "$PYTHON_MODIFIED_FILES" | wc -l)
           if [[ $FILE_COUNT -gt 1 ]]; then
             echo "More than one python_submit.txt file is modified"
+            echo "$PYTHON_MODIFIED_FILES"
             exit 1
           fi
           echo "PYTHON_MODIFIED_FILES=$(echo "$PYTHON_MODIFIED_FILES" | head -n 1)" >> $GITHUB_ENV
@@ -78,6 +79,7 @@ jobs:
           FILE_COUNT=$(echo "$NUMPY_MODIFIED_FILES" | wc -l)
           if [[ $FILE_COUNT -gt 1 ]]; then
             echo "More than one numpy_submit.txt file is modified"
+            echo "$NUMPY_MODIFIED_FILES"
             exit 1
           fi
           echo "NUMPY_MODIFIED_FILES=$(echo "$NUMPY_MODIFIED_FILES" | head -n 1)" >> $GITHUB_ENV
@@ -118,6 +120,7 @@ jobs:
           FILE_COUNT=$(echo "$PANDAS_MODIFIED_FILES" | wc -l)
           if [[ $FILE_COUNT -gt 1 ]]; then
             echo "More than one pandas_submit.txt file is modified"
+            echo "$PANDAS_MODIFIED_FILES"
             exit 1
           fi
           echo "PANDAS_MODIFIED_FILES=$(echo "$PANDAS_MODIFIED_FILES" | head -n 1)" >> $GITHUB_ENV
