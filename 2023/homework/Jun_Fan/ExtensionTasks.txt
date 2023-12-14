@@ -34,7 +34,7 @@ class Solution:
                 count += 1
                 i+=1
             else:
-                将上述记数count与cm比较，若大于则更新cm、counts；若等于，则看sign符号-1代表0，可以更新cm，counts;小于则保持cm，counts。
+                #将上述记数count与cm比较，若大于则更新cm、counts；若等于，则看sign符号-1代表0，可以更新cm，counts;小于则保持cm，counts。
                 if count > cm or (count == cm and -sign+1):
                     cm = count
                     counts=sign
@@ -75,7 +75,7 @@ class Solution:
             #判断中间值右边值，若它大于于左边，则说明最大值在中间值左边，更新左边界。
             else:
                 rightb = mid
-                若它还大于于左边，则说明此时mid即为最大值的索引。
+                #若它还大于于左边，则说明此时mid即为最大值的索引。
                 if arr[mid] > arr[mid-1]:
                     return mid
 
