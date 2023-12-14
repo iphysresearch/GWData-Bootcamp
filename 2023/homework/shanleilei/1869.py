@@ -1,7 +1,7 @@
 class Solution:
     def checkZeroOnes(self, s: str) -> bool:
 
-        mo = 0        
+        mo = 0
         mz = 0
         #遍历s字符串
         for i in range(len(s)):
@@ -14,14 +14,13 @@ class Solution:
                     #当再次遇到1，增加计数器
                     if s[i+a+1] == "1":
                         o+=1
-                    
+
                     #否则跳出循环
                     else:
                         break
                 #如果局部计数器大于外部计数器，则将局部计数器赋值给外部
                 if o > mo: mo=o
-                print("1的个数:{}".format(mo))
-            #如果遇到0
+                print(f"1的个数:{mo}")
             elif s[i] == "0": 
                 #初始化局部计数器
                 z = 1
@@ -30,13 +29,13 @@ class Solution:
                     #当再次遇到0，增加计数器
                     if s[i+d+1] == "0":
                         z+=1
-                    
+
                     #否则跳出循环
                     else:
                         break
                 #如果局部计数器大于外部计数器，则将局部计数器赋值给外部
                 if z > mz: mz=z
-                print("0的个数:{}".format(mz))
+                print(f"0的个数:{mz}")
         print(mo,mz)
         #比较0和1的个数
         return  mo>mz
