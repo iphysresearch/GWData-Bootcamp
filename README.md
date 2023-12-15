@@ -115,6 +115,13 @@ This course is meticulously designed to provide a solid foundation in programmin
       - Data visualization and analysis using Python libraries, matplotlib and seaborn.
   - [Homework](2023/python/4-GWTC3.ipynb)
       - Recreate Figure 7 from the GWTC-3 paper using numpy, pandas, matplotlib, and seaborn.
+  - Date：[2023/12/15](2023/python/readme.md#2023-12-15) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=2f4d95c6-424e-400e-b822-2bf3095ab3be&from=3) | [ipynb](./5-GW150914.ipynb) | [html](./5-GW150914.html)
+      - LIGO Open Data
+      - FFT by scratch
+      - Spectral Analysis
+      - Data analysis on GW150914
+      - Matched filtering to find the signal
+
 
 - **Part Three**: _Basics of Machine Learning_
     <details>
