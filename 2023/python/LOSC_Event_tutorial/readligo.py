@@ -89,7 +89,7 @@ def read_frame(filename, ifo, readstrain=True):
         def loaddata(filename, ifo=None):""")
 
     #-- Read strain channel
-    strain_name = ifo + ':LOSC-STRAIN'
+    strain_name = f'{ifo}:LOSC-STRAIN'
     if readstrain:
         sd = Fr.frgetvect(filename, strain_name)    
         strain = sd[0]
@@ -98,9 +98,9 @@ def read_frame(filename, ifo, readstrain=True):
     else:
         ts = 1
         strain = 0
-    
+
     #-- Read DQ channel
-    dq_name = ifo + ':LOSC-DQMASK'
+    dq_name = f'{ifo}:LOSC-DQMASK'
     qd = Fr.frgetvect(filename, dq_name)
     gpsStart = qd[1]
     qmask = np.array(qd[0])
@@ -109,7 +109,7 @@ def read_frame(filename, ifo, readstrain=True):
     shortnameList = [name.split(':')[1] for name in shortnameList_wbit]
 
     #-- Read Injection channel
-    inj_name = ifo + ':LOSC-INJMASK'
+    inj_name = f'{ifo}:LOSC-INJMASK'
     injdata = Fr.frgetvect(filename, inj_name)
     injmask = injdata[0]
     injnamelist_bit = injdata[5].split()
@@ -125,29 +125,25 @@ def read_hdf5(filename, readstrain=True):
     dataFile = h5py.File(filename, 'r')
 
     #-- Read the strain
-    if readstrain:
-        strain = dataFile['strain']['Strain'][...]
-    else:
-        strain = 0
-
+    strain = dataFile['strain']['Strain'][...] if readstrain else 0
     ts = dataFile['strain']['Strain'].attrs['Xspacing']
-    
+
     #-- Read the DQ information
     dqInfo = dataFile['quality']['simple']
     qmask = dqInfo['DQmask'][...]
     shortnameArray = dqInfo['DQShortnames'][()]
     shortnameList  = list(shortnameArray)
-    
+
     # -- Read the INJ information
     injInfo = dataFile['quality/injections']
     injmask = injInfo['Injmask'][...]
     injnameArray = injInfo['InjShortnames'][()]
     injnameList  = list(injnameArray)
-    
+
     #-- Read the meta data
     meta = dataFile['meta']
     gpsStart = meta['GPSstart'][()]
-    
+
     dataFile.close()
     return strain, gpsStart, ts, qmask, shortnameList, injmask, injnameList
 
@@ -174,22 +170,18 @@ def loaddata(filename, ifo=None, tvec=True, readstrain=True):
     except:
         return None,None,None
 
-    file_ext = os.path.splitext(filename)[1]    
+    file_ext = os.path.splitext(filename)[1]
     if (file_ext.upper() == '.GWF'):
         strain, gpsStart, ts, qmask, shortnameList, injmask, injnameList = read_frame(filename, ifo, readstrain)
     else:
         strain, gpsStart, ts, qmask, shortnameList, injmask, injnameList = read_hdf5(filename, readstrain)
-        
+
     #-- Create the time vector
     gpsEnd = gpsStart + len(qmask)
     if tvec:
         time = np.arange(gpsStart, gpsEnd, ts)
     else:
-        meta = {}
-        meta['start'] = gpsStart
-        meta['stop']  = gpsEnd
-        meta['dt']    = ts
-
+        meta = {'start': gpsStart, 'stop': gpsEnd, 'dt': ts}
     #-- Create 1 Hz DQ channel for each DQ and INJ channel
     channel_dict = {}  #-- 1 Hz, mask
     slice_dict   = {}  #-- sampling freq. of stain, a list of slices
@@ -198,26 +190,23 @@ def loaddata(filename, ifo=None, tvec=True, readstrain=True):
         bit = shortnameList.index(flag)
         # Special check for python 3
         if isinstance(flag, bytes): flag = flag.decode("utf-8") 
-        
+
         channel_dict[flag] = (qmask >> bit) & 1
 
     for flag in injnameList:
         bit = injnameList.index(flag)
         # Special check for python 3
         if isinstance(flag, bytes): flag = flag.decode("utf-8") 
-        
+
         channel_dict[flag] = (injmask >> bit) & 1
-       
+
     #-- Calculate the DEFAULT channel
     try:
         channel_dict['DEFAULT'] = ( channel_dict['DATA'] )
     except:
         print("Warning: Failed to calculate DEFAULT data quality channel")
 
-    if tvec:
-        return strain, time, channel_dict
-    else:
-        return strain, meta, channel_dict
+    return (strain, time, channel_dict) if tvec else (strain, meta, channel_dict)
 
 
 def dq2segs(channel, gps_start):
@@ -282,10 +271,7 @@ def dq_channel_to_seglist(channel, fs=4096):
 
     # -- group the segment boundaries two by two
     segments = boundaries.reshape( ( len(boundaries) // 2, 2 ) ) #// for python 3
-    # -- Account for sampling frequency and return a slice
-    segment_list = [slice(start*fs, stop*fs) for (start,stop) in segments]
-    
-    return segment_list
+    return [slice(start*fs, stop*fs) for (start,stop) in segments]
 
 class FileList():
     """
@@ -317,31 +303,32 @@ class FileList():
         frameList = []
         hdfList   = []
         for root, dirnames, filenames in os.walk(directory):
-            for filename in fnmatch.filter(filenames, '*.gwf'):
-                frameList.append(os.path.join(root, filename))
-            for filename in fnmatch.filter(filenames, '*.hdf5'):
-                hdfList.append(os.path.join(root, filename))
+            frameList.extend(
+                os.path.join(root, filename)
+                for filename in fnmatch.filter(filenames, '*.gwf')
+            )
+            hdfList.extend(
+                os.path.join(root, filename)
+                for filename in fnmatch.filter(filenames, '*.hdf5')
+            )
         return frameList + hdfList
 
     def writecache(self, cacheName):
-        outfile = open(cacheName, 'w')
-        for file in self.list:
-            outfile.write(file + '\n')
-        outfile.close()
+        with open(cacheName, 'w') as outfile:
+            for file in self.list:
+                outfile.write(file + '\n')
 
     def readcache(self):
-        infile = open(self.cache, 'r')
-        self.list = infile.read().split()
-        infile.close()
+        with open(self.cache, 'r') as infile:
+            self.list = infile.read().split()
     
     def findfile(self, gps, ifo):
         start_gps = gps - (gps % 4096)
         filenamelist = fnmatch.filter(self.list, '*' + '-' + ifo + '*' + '-' + str(start_gps) + '-' + '*')
-        if len(filenamelist) == 0:
-            print("WARNING!  No file found for GPS {0} and IFO {1}".format(gps, ifo))
-            return None
-        else:
+        if len(filenamelist) != 0:
             return filenamelist[0]
+        print("WARNING!  No file found for GPS {0} and IFO {1}".format(gps, ifo))
+        return None
             
 def getstrain(start, stop, ifo, filelist=None):
     """
@@ -364,9 +351,7 @@ def getstrain(start, stop, ifo, filelist=None):
     # -- Check if this is a science segment
     segList = getsegs(start, stop, ifo, flag='DATA', filelist=filelist)
     sl = segList.seglist
-    if (sl[0][0] == start) and (sl[0][1] == stop):
-        pass
-    else:
+    if sl[0][0] != start or sl[0][1] != stop:
         raise TypeError("""Error in getstrain.
         Requested times include times where the data file was not found
         or instrument not in SCIENCE mode.
@@ -423,10 +408,7 @@ class SegmentList():
                     start, stop = np.loadtxt(filename, dtype='int',unpack=True)
                 elif numcolumns == 3:
                     start, stop, duration = np.loadtxt(filename, dtype='int',unpack=True)
-                if isinstance(start, int): 
-                    self.seglist = [[start, stop]]
-                else:
-                    self.seglist = zip(start, stop)
+                self.seglist = [[start, stop]] if isinstance(start, int) else zip(start, stop)
             except:
                 self.seglist = []
         elif type(filename) is list:
