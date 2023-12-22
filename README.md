@@ -163,6 +163,10 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
+  - Date：[2023/12/22](2023/machine_learning/readme.md#2023-12-22) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=9972f117-e915-431e-9124-c2417f561304&from=3) | Slide: [PDF](2023/machine_learning/slide_ml_1.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_intro)
+  - [Homework](2023/machine_learning/readme.md#homework)
+      - Implement a classification model for credit scoring using the sklearn library in Python.
+
 - **Part Four**: _Introduction to Deep Learning_
     <details>
     <summary>Description</summary>
