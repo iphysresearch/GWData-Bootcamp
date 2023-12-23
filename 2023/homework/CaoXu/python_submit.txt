@@ -23,8 +23,8 @@ D
 C
 A
 D
-D
-C
+B
+BC
 B
 A
 C
@@ -73,12 +73,12 @@ B
 C
 A
 C
-A
+C
 B
 B
 C
 A
-B
+C
 A
 C
 B
