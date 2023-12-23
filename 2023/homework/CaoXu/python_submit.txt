@@ -54,7 +54,7 @@ B
 D
 D
 A
-A
+B
 D
 B
 C
