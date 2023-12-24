@@ -38,8 +38,8 @@
   - Sklearn Cross Validation and Grid Search: [ipynb](./sklearn_cross_validation_and_grid_search.ipynb) or [html](./sklearn_cross_validation_and_grid_search.html)
   - Sklearn Pipeline Tutorial: [ipynb](./sklearn_pipeline.ipynb) or [html](./sklearn_pipeline.html)
   - Sklearn Model Ensemble Tutorial: [ipynb](./sklearn_model_ensemble.ipynb) or [html](./sklearn_model_ensemble.html)
-  - Project - Glitch classification on meta data from GravitySpy: [ipynb](./sklearn_gravityspy_glitch_classification.ipynb) or [html](./sklearn_gravityspy_glitch_classification.html)
-  - Project - Glitch cluster analysis on Omega scan from GravitySpy: [ipynb](./sklearn_gravityspy_glitch_cluster_analysis.ipynb) or [html](./sklearn_gravityspy_glitch_cluster_analysis.html)
+  - [Project] Use GravitySpy Glitch metadata to build and train a classification model: [ipynb](./sklearn_gravityspy_glitch_classification.ipynb) or [html](./sklearn_gravityspy_glitch_classification.html)
+  - [Project] Train a clustering model using the time-frequency image information from GravitySpy Glitch: [ipynb](./sklearn_gravityspy_glitch_cluster_analysis.ipynb) or [html](./sklearn_gravityspy_glitch_cluster_analysis.html)
   - Solution ([ipynb](./CreditScoring.ipynb) or [html](./CreditScoring.html)) for [2023/machine_learning/homework_credit_scoring.ipynb](./homework_credit_scoring.ipynb)
 
 ## Homework
