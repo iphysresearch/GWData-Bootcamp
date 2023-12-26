@@ -33,7 +33,7 @@ C
 B
 C
 D
-A
+B
 A
 C
 D
@@ -78,7 +78,7 @@ B
 B
 C
 A
-C
+B
 A
 C
 B
@@ -97,7 +97,7 @@ A
 A
 A
 C
-C
+A
 A
 B
 B
