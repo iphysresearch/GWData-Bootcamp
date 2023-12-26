@@ -1,0 +1,233 @@
+name: Review Homework	
+
+run-name: Deploy by @${{ github.actor }}	
+
+# Controls when the workflow will run	
+on:	
+  # Triggers the workflow on push or pull request events but only for the "main" branch	
+  pull_request_target:	
+    # 仅当在名称以 homework/ 开头的分支上	
+    branches: [ "homework" ]	
+    types: [opened, synchronize, reopened]	
+    # 包含 '2023/**/submit.py' 文件更改的拉取请求时，才会运行以下工作流	
+    paths:	
+      - '2023/homework/**/python_submit.txt'	
+      - '2023/homework/**/numpy_submit.txt'	
+      - '2023/homework/**/pandas_submit.txt'	
+
+  # Allows you to run this workflow manually from the Actions tab	
+  workflow_dispatch:	
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel	
+jobs:	
+  # This workflow contains a single job called "build"	
+  check_python_homework:	
+    # The type of runner that the job will run on	
+    runs-on: ubuntu-20.04	
+    # Steps represent a sequence of tasks that will be executed as part of the job	
+    steps:	
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it	
+      - uses: actions/checkout@v2
+        with:  # Checkout pull request HEAD commit instead of merge commit	
+          ref: ${{ github.event.pull_request.head.sha }}	
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: files
+        run: |
+          PYTHON_MODIFIED_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep 'python_submit.txt')
+          FILE_COUNT=$(echo "$PYTHON_MODIFIED_FILES" | wc -l)
+          if [[ $FILE_COUNT -gt 1 ]]; then
+            echo "More than one python_submit.txt file is modified"
+            echo "$PYTHON_MODIFIED_FILES"
+            exit 1
+          fi
+          echo "PYTHON_MODIFIED_FILES=$(echo "$PYTHON_MODIFIED_FILES" | head -n 1)" >> $GITHUB_ENV
+        continue-on-error: true
+
+      - name: Check if specific file is modified
+        id: check_file
+        run: |
+          if [[ -n "${PYTHON_MODIFIED_FILES}" ]]; then
+            echo "python_submit.txt is modified"
+            echo "PYTHON_FILE_PATH=${PYTHON_MODIFIED_FILES}" >> $GITHUB_ENV
+            echo "::set-output name=python_file_path::${PYTHON_MODIFIED_FILES}"
+          else
+            echo "python_submit.txt is not modified"
+            exit 1
+          fi
+          echo ${{ steps.check_file.outputs.python_file_path }}
+        continue-on-error: true
+    outputs:
+      python_file_path: ${{ steps.check_file.outputs.python_file_path }}
+
+  check_numpy_homework:	
+    # The type of runner that the job will run on	
+    runs-on: ubuntu-20.04	
+    # Steps represent a sequence of tasks that will be executed as part of the job	
+    steps:	
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it	
+      - uses: actions/checkout@v2
+        with:  # Checkout pull request HEAD commit instead of merge commit	
+          ref: ${{ github.event.pull_request.head.sha }}	
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: files
+        run: |
+          NUMPY_MODIFIED_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep 'numpy_submit.txt')
+          FILE_COUNT=$(echo "$NUMPY_MODIFIED_FILES" | wc -l)
+          if [[ $FILE_COUNT -gt 1 ]]; then
+            echo "More than one numpy_submit.txt file is modified"
+            echo "$NUMPY_MODIFIED_FILES"
+            exit 1
+          fi
+          echo "NUMPY_MODIFIED_FILES=$(echo "$NUMPY_MODIFIED_FILES" | head -n 1)" >> $GITHUB_ENV
+        continue-on-error: true
+
+      - name: Check if specific file is modified
+        id: check_file
+        run: |
+          if [[ -n "${NUMPY_MODIFIED_FILES}" ]]; then
+            echo "numpy_submit.txt is modified"
+            echo "NUMPY_FILE_PATH=${NUMPY_MODIFIED_FILES}" >> $GITHUB_ENV
+            echo "::set-output name=numpy_file_path::${NUMPY_MODIFIED_FILES}"
+          else
+            echo "numpy_submit.txt is not modified"
+            exit 1
+          fi
+          echo ${{ steps.check_file.outputs.numpy_file_path }}
+        continue-on-error: true
+    outputs:
+      numpy_file_path: ${{ steps.check_file.outputs.numpy_file_path }}
+
+
+  check_pandas_homework:	
+    # The type of runner that the job will run on	
+    runs-on: ubuntu-20.04	
+    # Steps represent a sequence of tasks that will be executed as part of the job	
+    steps:	
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it	
+      - uses: actions/checkout@v2
+        with:  # Checkout pull request HEAD commit instead of merge commit	
+          ref: ${{ github.event.pull_request.head.sha }}	
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: files
+        run: |
+          PANDAS_MODIFIED_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep 'pandas_submit.txt')
+          FILE_COUNT=$(echo "$PANDAS_MODIFIED_FILES" | wc -l)
+          if [[ $FILE_COUNT -gt 1 ]]; then
+            echo "More than one pandas_submit.txt file is modified"
+            echo "$PANDAS_MODIFIED_FILES"
+            exit 1
+          fi
+          echo "PANDAS_MODIFIED_FILES=$(echo "$PANDAS_MODIFIED_FILES" | head -n 1)" >> $GITHUB_ENV
+        continue-on-error: true
+
+      - name: Check if specific file is modified
+        id: check_file
+        run: |
+          if [[ -n "${PANDAS_MODIFIED_FILES}" ]]; then
+            echo "pandas_submit.txt is modified"
+            echo "PANDAS_FILE_PATH=${PANDAS_MODIFIED_FILES}" >> $GITHUB_ENV
+            echo "::set-output name=PANDAS_FILE_PATH::${PANDAS_MODIFIED_FILES}"
+          else
+            echo "PANDAS_FILE_PATH.txt is not modified"
+            exit 1
+          fi
+          echo ${{ steps.check_file.outputs.pandas_file_path }}
+        continue-on-error: true
+    outputs:
+      pandas_file_path: ${{ steps.check_file.outputs.pandas_file_path }}
+
+  build:	
+    # The type of runner that the job will run on	
+    runs-on: ubuntu-20.04	
+    needs: [check_python_homework, check_numpy_homework, check_pandas_homework]
+
+    # Steps represent a sequence of tasks that will be executed as part of the job	
+    steps:	
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it	
+      - uses: actions/checkout@v2
+        with:  # Checkout pull request HEAD commit instead of merge commit	
+          ref: ${{ github.event.pull_request.head.sha }}	
+          fetch-depth: 0
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+      - name: Clone solutions repo
+        run: git clone ${{ secrets.SOLUTIONS_REPO }} solutions
+      - name: Debugging
+        run: |
+          echo "PYTHON_FILE_PATH: ${{ env.PYTHON_FILE_PATH }}"
+          echo "NUMPY_FILE_PATH: ${{ env.NUMPY_FILE_PATH }}"
+          echo "PANDAS_FILE_PATH: ${{ env.PANDAS_FILE_PATH }}"
+          ls -R
+        continue-on-error: true
+      # Runs a set of commands using the runners shell	
+      - name: Run a multi-line script	
+        run: |	
+          echo $SHELL && echo $PATH	
+          echo $HOME	
+          echo ${{ github.actor }}	
+        continue-on-error: true
+      # Runs a single command using the runners shell	
+      - name: Run a one-line script	
+        run: pwd && ls -lht **/**/** && cd 2023/homework
+        continue-on-error: true
+
+      - name: compare solution and submit (Python)
+        if: always() && needs.check_python_homework.result == 'success'
+        run: |
+          bash solutions/compare.sh solutions/python_solution.txt ${{ needs.check_python_homework.outputs.python_file_path }} Python
+
+      - name: compare solution and submit (Numpy)
+        if: always() && needs.check_numpy_homework.result == 'success'
+        run: |
+          bash solutions/compare.sh solutions/numpy_solution.txt ${{ needs.check_numpy_homework.outputs.numpy_file_path }} Numpy
+
+      - name: compare solution and submit (Pandas)
+        if: always() && needs.check_pandas_homework.result == 'success'
+        run: |
+          bash solutions/compare.sh solutions/pandas_solution.txt ${{ needs.check_pandas_homework.outputs.pandas_file_path }} Pandas
+
+      - name: Debugging
+        run: |
+          echo "PYTHON_FILE_PATH: ${{ needs.check_python_homework.outputs.python_file_path }}"
+          echo "NUMPY_FILE_PATH: ${{ needs.check_numpy_homework.outputs.numpy_file_path }}"
+          echo "PANDAS_FILE_PATH: ${{ needs.check_pandas_homework.outputs.pandas_file_path }}"
+          ls -R
+          cat $(dirname "${{ needs.check_python_homework.outputs.python_file_path }}")/Python_result.txt
+          cat $(dirname "${{ needs.check_numpy_homework.outputs.numpy_file_path }}")/Numpy_result.txt
+          cat $(dirname "${{ needs.check_pandas_homework.outputs.pandas_file_path }}")/Pandas_result.txt
+        continue-on-error: true
+
+      - name: Comment PR
+        run: |
+          echo "Good Job!!!   @${{ github.event.pull_request.user.login }}" > comment.txt
+          echo "---" >> comment.txt
+          if [ -f $(dirname "${{ needs.check_python_homework.outputs.python_file_path }}")/Python_result.txt ]; then
+            cat $(dirname "${{ needs.check_python_homework.outputs.python_file_path }}")/Python_result.txt >> comment.txt
+          fi
+          if [ -f $(dirname "${{ needs.check_numpy_homework.outputs.numpy_file_path }}")/Numpy_result.txt ]; then
+            cat $(dirname "${{ needs.check_numpy_homework.outputs.numpy_file_path }}")/Numpy_result.txt >> comment.txt
+          fi
+          if [ -f $(dirname "${{ needs.check_pandas_homework.outputs.pandas_file_path }}")/Pandas_result.txt ]; then
+            cat $(dirname "${{ needs.check_pandas_homework.outputs.pandas_file_path }}")/Pandas_result.txt >> comment.txt
+          fi
+          result=$(cat comment.txt)
+          comment=$(jq -Rs . <<<"$result")
+          curl \
+            -X POST \
+            -H "Authorization: token ${{ secrets.MY_GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/comments \
+            -d "{\"body\":$comment}"
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
