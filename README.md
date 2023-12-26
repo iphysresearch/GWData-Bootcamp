@@ -115,12 +115,41 @@ This course is meticulously designed to provide a solid foundation in programmin
       - Data visualization and analysis using Python libraries, matplotlib and seaborn.
   - [Homework](2023/python/4-GWTC3.ipynb)
       - Recreate Figure 7 from the GWTC-3 paper using numpy, pandas, matplotlib, and seaborn.
-  - Date：[2023/12/15](2023/python/readme.md#2023-12-15) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=2f4d95c6-424e-400e-b822-2bf3095ab3be&from=3) | [ipynb](./5-GW150914.ipynb) | [html](./5-GW150914.html)
-      - LIGO Open Data
-      - FFT by scratch
-      - Spectral Analysis
-      - Data analysis on GW150914
-      - Matched filtering to find the signal
+  - Date：[2023/12/15](2023/python/readme.md#2023-12-15) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=2f4d95c6-424e-400e-b822-2bf3095ab3be&from=3) | [ipynb](2023/python/5-GW150914.ipynb) | [html](2023/python/5-GW150914.html)
+      - LIGO Open Data + FFT by scratch + Spectral Analysis ([Project](2023/python/5-GW150914.ipynb))
+      - Data analysis on GW150914 + Matched filtering to find the signal ([Project](2023/python/5-GW150914.ipynb))
+
+- **Sci Talk**: _Bayesian inference for gravitational-wave science_ (Guest Lecture by [Junjie Zhao](https://orcid.org/0000-0002-9233-3683))
+    <details>
+    <summary>Description</summary>
+  
+        - Brief introduction to gravitational wave (引力波简要介绍)
+        - Part I: Bayesian inference (贝叶斯推断)
+            - Definition of “probability” ("概率"的定义)
+            - Rethink the interpretations (重思概率诠释)
+                - Frequentist statistics (频率学派)
+                - Bayesian statistics (贝叶斯学派)
+            - Bayes' theorem (贝叶斯定理)
+                - Application to the detection of gravitational wave (在引力波探测上应用)
+            - Bayesian inference framework (贝叶斯推断框架)
+                - Parameter estimation for gravitational-wave data (引力波数据分析中参数估计)
+                - Model selection for gravitational-wave data (引力波数据分析中模型选择)
+        - Q & A
+        - Part II: Bayesian computation (贝叶斯计算方法)
+            - Markov Chain Monte Carlo (MCMC; 马尔可夫链-蒙特卡罗方法)
+                - hands-on tiny mcmc example
+            - Nested sampling (嵌套采样)
+                - hands-on tiny nested-sampling example
+        - Part III: All in gravitational-wave data (一切尽在引力波数据中)
+            - Use Bilby & Parallel Bilby in the GW data analysis
+            - nShow the complete pipeline for the data analysis
+        - The AMAZING Thomas Bayes (为美好的世界献上"贝叶斯定理")
+        - Q & A
+  
+    </details>
+
+  - Date：[2023/12/16](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=eb4e542d-a49d-4b38-ad1d-1d362ecddbea&from=3) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
+  - Date：[2023/12/17](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=11e13d08-ed8a-4455-a373-6df7bcc0d43a&from=3) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
 
 
 - **Part Three**: _Basics of Machine Learning_
@@ -133,6 +162,15 @@ This course is meticulously designed to provide a solid foundation in programmin
       - Hands-On: Clustering Analysis of LIGO's Glitch Data
 
     </details>
+
+  - Date：[2023/12/22](2023/machine_learning/readme.md#2023-12-22) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=9972f117-e915-431e-9124-c2417f561304&from=3) | Slide: [PDF](2023/machine_learning/slide_ml_1.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_intro)
+  - [Homework](2023/machine_learning/readme.md#homework)
+      - Implement a classification model for credit scoring using the sklearn library in Python.
+  - Date：[2023/12/24](2023/machine_learning/readme.md#2023-12-24) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=d4b30c68-910c-4c19-943d-9e49a419ebe7&from=3) | Slide: [PDF](2023/machine_learning/slide_ml_2.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_adv)
+      - Use GravitySpy Glitch metadata to build and train a classification model. ([Project](2023/machine_learning/sklearn_gravityspy_glitch_classification.ipynb))
+      - Train a clustering model using the time-frequency image information from GravitySpy Glitch. ([Project](2023/machine_learning/sklearn_gravityspy_glitch_cluster_analysis.ipynb))
+  - [Homework](2023/machine_learning/readme.md#homework-2)
+      - Model Evaluation and Hyperparameter Tuning for a Credit Scoring Dataset.
 
 - **Part Four**: _Introduction to Deep Learning_
     <details>
@@ -216,7 +254,7 @@ Welcome to the course project! To get started with your programming assignments,
 - Happy Coding! 🚀👩‍💻👨
 
 ## Staff
-This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers and industry experts ([Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities)), whose names will be announced as they join.
+This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers ([Junjie Zhao](https://orcid.org/0000-0002-9233-3683)) and industry experts ([Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities)), whose names will be announced as they join.
 
 ## Questions
 For any inquiries regarding the course, please email us at [📧 taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn).
