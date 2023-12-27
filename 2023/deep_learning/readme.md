@@ -3,10 +3,9 @@
 
 ## 2023-12-27
 - Video: [https://meeting.tencent.com/v2/cloud-record/share?id=b2bbb9da-94dd-45df-94f2-b5bf9e095e60&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=b2bbb9da-94dd-45df-94f2-b5bf9e095e60&from=3)
-- Slide: [PDF](./slide_dl_1.pdf) or [https://slides.com/iphysresearch/gwda_coding_4_ann](https://slides.com/iphysresearch/gwda_coding_4_ann)
+- Slide: [PDF](https://pan.baidu.com/s/1kX8KbQMiMMOubyTwiqTdXQ?pwd=audc) or [https://slides.com/iphysresearch/gwda_coding_4_ann](https://slides.com/iphysresearch/gwda_coding_4_ann)
 - Notebooks:
   - Multilayer Neural Network Tutorial: [ipynb](./neural_network_scratch.ipynb) or [html](./neural_network_scratch.html)
-
 
 ---
 
