@@ -8,5 +8,7 @@
 - 2023.12.12
     - python_submit.txt(Done)
 - 2023.12.26
-    - homework-matplotlib版.ipynb(PR)
-    - homework-seaborn版.ipynb(PR)
+    - homework-matplotlib版.ipynb(Done)
+    - homework-seaborn版.ipynb(Done)
+- 2023.12.28
+    - homework_GWTC3.ipynb(PR)
