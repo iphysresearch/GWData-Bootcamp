@@ -45,7 +45,7 @@ def tukey(M,alpha=0.5):
     """
     n = np.arange(0, M)
     width = int(np.floor(alpha*(M-1)/2.0))
-    n1 = n[0:width+1]
+    n1 = n[:width+1]
     n2 = n[width+1:M-width-1]
     n3 = n[M-width-1:]
 
@@ -106,9 +106,7 @@ def gen_noise(fs,T_obs,psd):
     im = amp*np.random.normal(0,1,Nf)
     re[0] = 0.0
     im[0] = 0.0
-    x = N*np.fft.irfft(re + 1j*im)*df
-
-    return x
+    return N*np.fft.irfft(re + 1j*im)*df
 
 def gen_psd(fs,T_obs,op='AdvDesign',det='H1'):
     """
@@ -119,7 +117,7 @@ def gen_psd(fs,T_obs,op='AdvDesign',det='H1'):
     df = 1 / T_obs          # the frequency resolution
     psd = lal.CreateREAL8FrequencySeries(None, lal.LIGOTimeGPS(0), 0.0, df,lal.HertzUnit, N // 2 + 1)
 
-    if det=='H1' or det=='L1':
+    if det in ['H1', 'L1']:
         if op == 'AdvDesign':
             lalsimulation.SimNoisePSDAdVDesignSensitivityP1200087(psd, 10.0)
         elif op == 'AdvEarlyLow':
@@ -183,12 +181,7 @@ def whiten_data(data,duration,sample_rate,psd,flag='td'):
     # Detrend the data: no DC component.
     xf[0] = 0.0
 
-    if flag=='td':
-        # Return to time domain.
-        x = np.fft.irfft(xf)
-        return x
-    else:
-        return xf
+    return np.fft.irfft(xf) if flag=='td' else xf
 
 def gen_masses(m_min=5.0,M_max=100.0,mdist='astro',verbose=True):
     """
@@ -198,31 +191,35 @@ def gen_masses(m_min=5.0,M_max=100.0,mdist='astro',verbose=True):
     flag = False
     if mdist=='astro':
         if verbose:
-            print('{}: using astrophysical logarithmic mass distribution'.format(time.asctime()))
+            print(f'{time.asctime()}: using astrophysical logarithmic mass distribution')
         new_m_min = m_min
         new_M_max = M_max
         log_m_max = np.log(new_M_max - new_m_min)
         while not flag:
             m12 = np.exp(np.log(new_m_min) + np.random.uniform(0,1,2)*(log_m_max-np.log(new_m_min)))
-            flag = True if (np.sum(m12)<new_M_max) and (np.all(m12>new_m_min)) and (m12[0]>=m12[1]) else False
+            flag = bool(
+                (np.sum(m12) < new_M_max)
+                and (np.all(m12 > new_m_min))
+                and (m12[0] >= m12[1])
+            )
         eta = m12[0]*m12[1]/(m12[0]+m12[1])**2
         mc = np.sum(m12)*eta**(3.0/5.0)
         return m12, mc, eta
     elif mdist=='gh':
         if verbose:
-            print('{}: using George & Huerta mass distribution'.format(time.asctime()))
+            print(f'{time.asctime()}: using George & Huerta mass distribution')
         m12 = np.zeros(2)
         while not flag:
             q = np.random.uniform(1.0,10.0,1)
             m12[1] = np.random.uniform(5.0,75.0,1)
             m12[0] = m12[1]*q
-            flag = True if (np.all(m12<75.0)) and (np.all(m12>5.0)) and (m12[0]>=m12[1]) else False
+            flag = bool((np.all(m12<75.0)) and (np.all(m12>5.0)) and (m12[0]>=m12[1]))
         eta = m12[0]*m12[1]/(m12[0]+m12[1])**2
         mc = np.sum(m12)*eta**(3.0/5.0)
         return m12, mc, eta
     elif mdist=='metric':
         if verbose:
-            print('{}: using metric based mass distribution'.format(time.asctime()))
+            print(f'{time.asctime()}: using metric based mass distribution')
         new_m_min = m_min
         new_M_max = M_max
         new_M_min = 2.0*new_m_min
@@ -233,11 +230,15 @@ def gen_masses(m_min=5.0,M_max=100.0,mdist='astro',verbose=True):
             m12 = np.zeros(2)
             m12[0] = 0.5*M + M*np.sqrt(0.25-eta)
             m12[1] = M - m12[0]
-            flag = True if (np.sum(m12)<new_M_max) and (np.all(m12>new_m_min)) and (m12[0]>=m12[1]) else False
+            flag = bool(
+                (np.sum(m12) < new_M_max)
+                and (np.all(m12 > new_m_min))
+                and (m12[0] >= m12[1])
+            )
         mc = np.sum(m12)*eta**(3.0/5.0)
         return m12, mc, eta
     else:
-        print('{}: ERROR, unknown mass distribution. Exiting.'.format(time.asctime()))
+        print(f'{time.asctime()}: ERROR, unknown mass distribution. Exiting.')
         exit(1)
 
 def get_fmin(M,eta,dt,verbose):
@@ -275,28 +276,30 @@ def gen_par(fs,T_obs,mdist='astro',beta=[0.75,0.95],verbose=True):
     m12, mc, eta = gen_masses(m_min,M_max,mdist=mdist,verbose=verbose)
     M = np.sum(m12)
     if verbose:
-        print('{}: selected bbh masses = {},{} (chirp mass = {})'.format(time.asctime(),m12[0],m12[1],mc))
+        print(
+            f'{time.asctime()}: selected bbh masses = {m12[0]},{m12[1]} (chirp mass = {mc})'
+        )
 
     # generate iota
     iota = np.arccos(-1.0 + 2.0*np.random.rand())
     if verbose:
-        print('{}: selected bbh cos(inclination) = {}'.format(time.asctime(),np.cos(iota)))
+        print(f'{time.asctime()}: selected bbh cos(inclination) = {np.cos(iota)}')
 
     # generate polarisation angle
     psi = 2.0*np.pi*np.random.rand()
     if verbose:
-        print('{}: selected bbh polarisation = {}'.format(time.asctime(),psi))
+        print(f'{time.asctime()}: selected bbh polarisation = {psi}')
 
     # generate reference phase
     phi = 2.0*np.pi*np.random.rand()
     if verbose:
-        print('{}: selected bbh reference phase = {}'.format(time.asctime(),phi))
+        print(f'{time.asctime()}: selected bbh reference phase = {phi}')
 
     # pick sky position - uniform on the 2-sphere
     ra = 2.0*np.pi*np.random.rand()
     dec = np.arcsin(-1.0 + 2.0*np.random.rand())
     if verbose:
-        print('{}: selected bbh sky position = {},{}'.format(time.asctime(),ra,dec))
+        print(f'{time.asctime()}: selected bbh sky position = {ra},{dec}')
 
     # pick new random max amplitude sample location - within beta fractions
     # and slide waveform to that location
@@ -306,7 +309,7 @@ def gen_par(fs,T_obs,mdist='astro',beta=[0.75,0.95],verbose=True):
     else:
         idx = int(np.random.randint(low_idx,high_idx,1)[0])
     if verbose:
-        print('{}: selected bbh peak amplitude time = {}'.format(time.asctime(),idx/fs))
+        print(f'{time.asctime()}: selected bbh peak amplitude time = {idx / fs}')
 
     # the start index of the central region
     sidx = int(0.5*fs*T_obs*(safe-1.0)/safe)
@@ -314,12 +317,24 @@ def gen_par(fs,T_obs,mdist='astro',beta=[0.75,0.95],verbose=True):
     # compute SNR of pre-whitened data
     fmin = get_fmin(M,eta,int(idx-sidx)/fs,verbose)
     if verbose:
-        print('{}: computed starting frequency = {} Hz'.format(time.asctime(),fmin))
+        print(f'{time.asctime()}: computed starting frequency = {fmin} Hz')
 
-    # store params
-    par = bbhparams(mc,M,eta,m12[0],m12[1],ra,dec,np.cos(iota),phi,psi,idx,fmin,None,None)
-
-    return par
+    return bbhparams(
+        mc,
+        M,
+        eta,
+        m12[0],
+        m12[1],
+        ra,
+        dec,
+        np.cos(iota),
+        phi,
+        psi,
+        idx,
+        fmin,
+        None,
+        None,
+    )
 
 def gen_bbh(fs,T_obs,psds,snr=1.0,dets=['H1'],beta=[0.75,0.95],par=None,verbose=True):
     """
@@ -347,7 +362,7 @@ def gen_bbh(fs,T_obs,psds,snr=1.0,dets=['H1'],beta=[0.75,0.95],par=None,verbose=
                     f_low,f_low,
                     lal.CreateDict(),
                     approximant)
-        flag = True if hp.data.length>2*N else False
+        flag = hp.data.length > 2*N
         f_low -= 1       # decrease by 1 Hz each time
     orig_hp = hp.data.data
     orig_hc = hc.data.data
@@ -408,7 +423,7 @@ def gen_bbh(fs,T_obs,psds,snr=1.0,dets=['H1'],beta=[0.75,0.95],par=None,verbose=
     hc *= scale
     intsnr *= scale
     if verbose:
-        print('{}: computed the network SNR = {}'.format(time.asctime(),snr))
+        print(f'{time.asctime()}: computed the network SNR = {snr}')
 
     return ts, hp, hc
 
@@ -432,7 +447,7 @@ def make_bbh(hp,hc,fs,ra,dec,psi,det,verbose):
     frDetector =  lalsimulation.DetectorPrefixToLALDetector(det)
     tdelay = lal.TimeDelayFromEarthCenter(frDetector.location,ra,dec,0.0)
     if verbose:
-        print('{}: computed {} Earth centre time delay = {}'.format(time.asctime(),det,tdelay))
+        print(f'{time.asctime()}: computed {det} Earth centre time delay = {tdelay}')
 
     # interpolate to get time shifted signal
     ht_tck = interpolate.splrep(tvec, ht, s=0)
@@ -461,13 +476,13 @@ def sim_data(fs,T_obs,snr=1.0,dets=['H1'],Nnoise=25,size=1000,mdist='astro',beta
     # for the noise class
     for x in xrange(npclass):
         if verbose:
-            print('{}: making a noise only instance'.format(time.asctime()))
+            print(f'{time.asctime()}: making a noise only instance')
         ts_new = np.array([gen_noise(fs,T_obs,psd.data.data) for psd in psds]).reshape(ndet,-1)
         ts.append(np.array([whiten_data(t,T_obs,fs,psd.data.data) for t,psd in zip(ts_new,psds)]).reshape(ndet,-1))
         par.append(None)
         yval.append(0)
         if verbose:
-            print('{}: completed {}/{} noise samples'.format(time.asctime(),x+1,npclass))
+            print(f'{time.asctime()}: completed {x + 1}/{npclass} noise samples')
 
     # for the signal class - loop over random masses
     cnt = npclass
@@ -478,14 +493,16 @@ def sim_data(fs,T_obs,snr=1.0,dets=['H1'],Nnoise=25,size=1000,mdist='astro',beta
         ts_new,_,_ = gen_bbh(fs,T_obs,psds,snr=snr,dets=dets,beta=beta,par=par_new,verbose=verbose)
 
         # loop over noise realisations
-        for j in xrange(Nnoise):
+        for _ in xrange(Nnoise):
             ts_noise = np.array([gen_noise(fs,T_obs,psd.data.data) for psd in psds]).reshape(ndet,-1)
             ts.append(np.array([whiten_data(t,T_obs,fs,psd.data.data) for t,psd in zip(ts_noise+ts_new,psds)]).reshape(ndet,-1))
             par.append(par_new)
             yval.append(1)
             cnt += 1
         if verbose:
-            print('{}: completed {}/{} signal samples'.format(time.asctime(),cnt-npclass,int(size/2)))
+            print(
+                f'{time.asctime()}: completed {cnt - npclass}/{int(size / 2)} signal samples'
+            )
 
     # trim the data down to desired length
     ts = np.array(ts)[:size]
@@ -515,26 +532,21 @@ def main():
     nblock = int(np.ceil(float(args.Nsamp)/float(args.Nblock)))
     for i in xrange(nblock):
 
-    	# simulate the dataset and randomise it
+            	# simulate the dataset and randomise it
         # only use Nnoise for the training data NOT the validation and test
-    	print('{}: starting to generate data'.format(time.asctime()))
-    	ts, par = sim_data(args.fsample,safeTobs,args.snr,args.detectors,args.Nnoise,size=args.Nblock,mdist=args.mdist,beta=[0.75,0.95])
-    	print('{}: completed generating data {}/{}'.format(time.asctime(),i+1,nblock))
+        print(f'{time.asctime()}: starting to generate data')
+        ts, par = sim_data(args.fsample,safeTobs,args.snr,args.detectors,args.Nnoise,size=args.Nblock,mdist=args.mdist,beta=[0.75,0.95])
+        print(f'{time.asctime()}: completed generating data {i + 1}/{nblock}')
 
-    	# pickle the results
-    	# save the timeseries data to file
-    	f = open(args.basename + '_ts_' + str(i) + '.sav', 'wb')
-    	cPickle.dump(ts, f, protocol=cPickle.HIGHEST_PROTOCOL)
-    	f.close()
-    	print('{}: saved timeseries data to file'.format(time.asctime()))
+        with open(f'{args.basename}_ts_{str(i)}.sav', 'wb') as f:
+            cPickle.dump(ts, f, protocol=cPickle.HIGHEST_PROTOCOL)
+        print(f'{time.asctime()}: saved timeseries data to file')
 
-    	# save the sample parameters to file
-    	f = open(args.basename + '_params_' + str(i) + '.sav', 'wb')
-    	cPickle.dump(par, f, protocol=cPickle.HIGHEST_PROTOCOL)
-    	f.close()
-    	print('{}: saved parameter data to file'.format(time.asctime()))
+        with open(f'{args.basename}_params_{str(i)}.sav', 'wb') as f:
+            cPickle.dump(par, f, protocol=cPickle.HIGHEST_PROTOCOL)
+        print(f'{time.asctime()}: saved parameter data to file')
 
-    print('{}: success'.format(time.asctime()))
+    print(f'{time.asctime()}: success')
 
 if __name__ == "__main__":
     exit(main())
