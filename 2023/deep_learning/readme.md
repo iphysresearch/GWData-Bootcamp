@@ -21,7 +21,7 @@
 
 ### Overview
 
-- Welcome to the final challenge of the Gravitational Wave Data Exploration: A Practical Training in Programming and Analysis (2023) - "**Can you find the GW signals?**" Kaggle Data Science Competition (Hackathon)! 
+- Welcome to the final challenge of the [Gravitational Wave Data Exploration: A Practical Training in Programming and Analysis (2023)](https://github.com/iphysresearch/GWData-Bootcamp/) - "**Can you find the GW signals?**" Kaggle Data Science Competition (Hackathon)! 
 - This competition is designed to apply the knowledge and skills you've learned throughout the course, focusing on gravitational wave data analysis and research.
 
 ### Objective
