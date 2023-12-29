@@ -29,7 +29,20 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     <details>
     <summary>Description</summary>
-      123
+
+      - 办课初衷与学员构成
+      - 讲师介绍
+      - 与本课程相关的知识架构
+          - 引力波数据分析
+          - 课程大纲
+          - 本课程是什么，不是什么
+      - 本课程的学习方法与教学团队
+      - 本课程的考核规则和项目作业
+      - 通向自我实现之路
+          - 如何自学
+          - 如何提问
+      - 提问环节
+
     </details>
 
   - Date：[2023/11/08](2023/intro/readme.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=a1f3c150-eeb3-4266-a4cc-4099bb28d382&from=3) | Slide: [PDF](2023/intro/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_0)
@@ -46,8 +59,14 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/11/12](2023/workflow/readme.md#2023-11-12) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=af256140-e032-4b0c-9116-5741fad5010b&from=3) | Slide: [PDF](2023/workflow/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1) | [Homework](2023/workflow/readme.md#homework)
-  - Date：[2023/11/19](2023/workflow/readme.md#2023-11-19) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=d1e10208-857a-429c-80ee-8a5bfbb88d52&from=3) | Slide: [PDF](2023/workflow/slide_git.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1_git) | [Homework](2023/workflow/readme.md#homework-1)
+  - Date：[2023/11/12](2023/workflow/readme.md#2023-11-12) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=af256140-e032-4b0c-9116-5741fad5010b&from=3) | Slide: [PDF](2023/workflow/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1)
+  - [Homework](2023/workflow/readme.md#homework)
+      - Docker Container Setup
+      - Remote Development for Python/Jupyter with GPU Support and LALsuite/LISAcode Compilation
+  - Date：[2023/11/19](2023/workflow/readme.md#2023-11-19) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=d1e10208-857a-429c-80ee-8a5bfbb88d52&from=3) | Slide: [PDF](2023/workflow/slide_git.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1_git)
+  - [Homework](2023/workflow/readme.md#homework-1)
+      - Introduction to Git and GitHub Workflow
+      - Setting Up and Submitting Homework via GitHub
 - **Tech Talk**: _It's all about data_ (Guest Lecture by [Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities))
     <details>
     <summary>Description</summary>
@@ -84,6 +103,54 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
+  - Date：[2023/11/29](2023/python/readme.md#2023-11-29) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=38d62612-d754-413f-b6a9-2d0d960f4549&from=3) | Slide: [PDF](2023/python/slide_python.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_python)
+  - Date：[2023/12/01](2023/python/readme.md#2023-12-01) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=0e5f06cb-8c5b-4e28-a1ba-a766025510e4&from=3) | Slide: [PDF](2023/python/slide_numpy.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_numpy)
+  - Date：[2023/12/03](2023/python/readme.md#2023-12-03) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=eef300fb-a794-4aff-93e2-0ec36501b1b6&from=3) | Slide: [PDF](2023/python/slide_pandas.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_pandas)
+  - [Homework](2023/python/readme.md#homework)
+      - Python, Numpy, Pandas Basic Homework
+      - Leetcode Extension Tasks
+  - Date：[2023/12/08](2023/python/readme.md#2023-12-08) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=dd9f5242-b3a8-4500-9436-ba190a739c10&from=3) | Slide: [PDF](2023/python/slide_visualization.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_visualization)
+  - Date：[2023/12/10](2023/python/readme.md#2023-12-10) | Video [recording](https://pan.baidu.com/s/1MiqCAMGP7-B76uOHCDgErg?pwd=ph8c)
+  - [Homework](2023/python/readme.md#homework-1)
+      - Data visualization and analysis using Python libraries, matplotlib and seaborn.
+  - [Homework](2023/python/4-GWTC3.ipynb)
+      - Recreate Figure 7 from the GWTC-3 paper using numpy, pandas, matplotlib, and seaborn.
+  - Date：[2023/12/15](2023/python/readme.md#2023-12-15) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=2f4d95c6-424e-400e-b822-2bf3095ab3be&from=3) | [ipynb](2023/python/5-GW150914.ipynb) | [html](2023/python/5-GW150914.html)
+      - LIGO Open Data + FFT by scratch + Spectral Analysis ([Project](2023/python/5-GW150914.ipynb))
+      - Data analysis on GW150914 + Matched filtering to find the signal ([Project](2023/python/5-GW150914.ipynb))
+
+- **Sci Talk**: _Bayesian inference for gravitational-wave science_ (Guest Lecture by [Junjie Zhao](https://orcid.org/0000-0002-9233-3683))
+    <details>
+    <summary>Description</summary>
+  
+        - Brief introduction to gravitational wave (引力波简要介绍)
+        - Part I: Bayesian inference (贝叶斯推断)
+            - Definition of “probability” ("概率"的定义)
+            - Rethink the interpretations (重思概率诠释)
+                - Frequentist statistics (频率学派)
+                - Bayesian statistics (贝叶斯学派)
+            - Bayes' theorem (贝叶斯定理)
+                - Application to the detection of gravitational wave (在引力波探测上应用)
+            - Bayesian inference framework (贝叶斯推断框架)
+                - Parameter estimation for gravitational-wave data (引力波数据分析中参数估计)
+                - Model selection for gravitational-wave data (引力波数据分析中模型选择)
+        - Q & A
+        - Part II: Bayesian computation (贝叶斯计算方法)
+            - Markov Chain Monte Carlo (MCMC; 马尔可夫链-蒙特卡罗方法)
+                - hands-on tiny mcmc example
+            - Nested sampling (嵌套采样)
+                - hands-on tiny nested-sampling example
+        - Part III: All in gravitational-wave data (一切尽在引力波数据中)
+            - Use Bilby & Parallel Bilby in the GW data analysis
+            - nShow the complete pipeline for the data analysis
+        - The AMAZING Thomas Bayes (为美好的世界献上"贝叶斯定理")
+        - Q & A
+  
+    </details>
+
+  - Date：[2023/12/16](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=eb4e542d-a49d-4b38-ad1d-1d362ecddbea&from=3) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
+  - Date：[2023/12/17](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=11e13d08-ed8a-4455-a373-6df7bcc0d43a&from=3) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
+
 
 - **Part Three**: _Basics of Machine Learning_
     <details>
@@ -95,6 +162,15 @@ This course is meticulously designed to provide a solid foundation in programmin
       - Hands-On: Clustering Analysis of LIGO's Glitch Data
 
     </details>
+
+  - Date：[2023/12/22](2023/machine_learning/readme.md#2023-12-22) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=9972f117-e915-431e-9124-c2417f561304&from=3) | Slide: [PDF](2023/machine_learning/slide_ml_1.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_intro)
+  - [Homework](2023/machine_learning/readme.md#homework)
+      - Implement a classification model for credit scoring using the sklearn library in Python.
+  - Date：[2023/12/24](2023/machine_learning/readme.md#2023-12-24) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=d4b30c68-910c-4c19-943d-9e49a419ebe7&from=3) | Slide: [PDF](2023/machine_learning/slide_ml_2.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_adv)
+      - Use GravitySpy Glitch metadata to build and train a classification model. ([Project](2023/machine_learning/sklearn_gravityspy_glitch_classification.ipynb))
+      - Train a clustering model using the time-frequency image information from GravitySpy Glitch. ([Project](2023/machine_learning/sklearn_gravityspy_glitch_cluster_analysis.ipynb))
+  - [Homework](2023/machine_learning/readme.md#homework-2)
+      - Model Evaluation and Hyperparameter Tuning for a Credit Scoring Dataset.
 
 - **Part Four**: _Introduction to Deep Learning_
     <details>
@@ -108,6 +184,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
+  - Date：[2023/12/27](2023/deep_learning/readme.md#2023-12-27) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=b2bbb9da-94dd-45df-94f2-b5bf9e095e60&from=3) | Slide: [PDF](https://pan.baidu.com/s/1kX8KbQMiMMOubyTwiqTdXQ?pwd=audc) or [online](https://slides.com/iphysresearch/gwda_coding_4_ann)
 
 ## Getting Started
 
@@ -150,11 +227,12 @@ Welcome to the course project! To get started with your programming assignments,
 
 1. **Complete Your Assignments**:
      - Add your completed assignments to your personal homework directory that you created in the previous step.
+     - The assignments should be named as `python_submit.txt`, `numpy_submit.txt`, or `pandas_submit.txt` depending on the type of the assignment.
 2. **Push Your Changes**:
      - Stage and commit your changes. For example:
        ```shell
        git add .
-       git commit -m "Add homework for Week 1"
+       git commit -m "Add homework for <SpecificHomework>"
        ```
      - Push your `homework` branch to your forked repository:
        ```shell
@@ -163,18 +241,21 @@ Welcome to the course project! To get started with your programming assignments,
 3. **Create a Pull Request**:
     - Go to your forked repository on GitHub.
     - Switch to the `homework` branch.
-    - Click on `New Pull Request`.
+    - Click on New Pull Request.
     - Ensure the base repository is set to the original `GWData-Bootcamp` repository and the base branch is set to `homework`.
     - Complete the PR form and submit.
+    - The GitHub Actions workflow will automatically check your submission ([Homework](2023/python/readme.md#homework)) and compare it with the solution. If your submission passes the check, a merge request will be initiated. Please note that only the repository owners have the authority to merge the request.
+
 
 ### Important Notes
 
 - **Do Not Modify Other Students' Work**: It's crucial that you do not make any changes to other students' homework directories and contents.
 - **Regular Updates**: Keep your fork synchronized with the main repository to get the latest updates and assignments.
-- Happy Coding! 🚀👩‍💻👨‍💻
+- Automated Checks: The GitHub Actions workflow will automatically check your submission when you create a pull request. Make sure your submission passes the check before you submit it.
+- Happy Coding! 🚀👩‍💻👨
 
 ## Staff
-This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers and industry experts ([Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities)), whose names will be announced as they join.
+This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers ([Junjie Zhao](https://orcid.org/0000-0002-9233-3683)) and industry experts ([Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities)), whose names will be announced as they join.
 
 ## Questions
 For any inquiries regarding the course, please email us at [📧 taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn).
