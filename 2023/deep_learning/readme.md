@@ -27,7 +27,7 @@
 ### Objective
 
 - The objective of this competition is to develop a model that can accurately identify gravitational wave signals from the provided dataset. 
-- pYou will be given a dataset containing a mix of noise and gravitational wave signals. Your task is to develop a model that can accurately distinguish between the two.
+- You will be given a dataset containing a mix of noise and gravitational wave signals. Your task is to develop a model that can accurately distinguish between the two.
 
 ### Timeline
 
