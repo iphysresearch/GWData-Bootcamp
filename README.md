@@ -336,7 +336,7 @@ Welcome to the course project! To get started with your programming assignments,
 - Happy Coding! 🚀👩‍💻👨
 
 ## Staff
-This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers ([Junjie Zhao](https://orcid.org/0000-0002-9233-3683)) and industry experts ([Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities)), whose names will be announced as they join.
+This class is co-taught by [He Wang](https://iphysresearch.github.io/blog/) and several esteemed colleagues, including guest lecturers ([Junjie Zhao](https://orcid.org/0000-0002-9233-3683)) and industry experts ([Xinyao Tian](https://www.zhihu.com/people/winchester-26/activities) and [Minquan Gao](https://www.mqgao.com/)), whose names will be announced as they join.
 
 ## Questions
 For any inquiries regarding the course, please email us at [📧 taiji@ucas.ac.cn](mailto:taiji@ucas.ac.cn).
