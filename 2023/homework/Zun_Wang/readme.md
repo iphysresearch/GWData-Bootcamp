@@ -1,2 +1,0 @@
-# The homework of WangZun
-
