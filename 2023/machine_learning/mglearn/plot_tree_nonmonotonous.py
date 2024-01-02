@@ -22,5 +22,5 @@ def plot_tree_not_monotone():
     export_graphviz(tree, out_file="mytree.dot", impurity=False, filled=True)
     with open("mytree.dot") as f:
         dot_graph = f.read()
-    print("Feature importances: %s" % tree.feature_importances_)
+    print(f"Feature importances: {tree.feature_importances_}")
     return graphviz.Source(dot_graph)

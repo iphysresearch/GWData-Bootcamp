@@ -39,7 +39,7 @@ def tree_image(tree, fout=None):
     if fout is None:
         fout = "tmp"
     graph.render(fout)
-    return imread(fout + ".png")
+    return imread(f"{fout}.png")
 
 
 def plot_tree_progressive():
