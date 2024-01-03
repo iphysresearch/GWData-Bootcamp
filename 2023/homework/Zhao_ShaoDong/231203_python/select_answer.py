@@ -36,7 +36,7 @@ def extract_choices_from_file(inputfile_path,outputfile_path):
 
 
 # example
-inputfile_path = 'choose.md'  
-outputfile_path = 'test.txt'
+inputfile_path = './231203_pandas/choose.md'  
+outputfile_path = './231203_pandas/pandas_submit.txt'
 result = extract_choices_from_file(inputfile_path,outputfile_path)
 
