@@ -105,7 +105,7 @@ if + means plus not positive then C is highest otherwise D is highest
 ## 40. A
 Since *a* here is *a* list, += operation will also influent *a*. But if *a* isn't a list += will not affect *a*. The point is that *a* should be **mutable**. 
 
-## 41. Same question with 22. It's D
+## 41. D. Same question with 22.
 
 ## 42. A. 9.0
 
