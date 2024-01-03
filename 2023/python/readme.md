@@ -97,3 +97,20 @@
 ### 拓展作业
 
 - 分别用 matplotlib 和 seaborn 完成基础作业。
+
+---
+
+## 2023-12-15
+- Content:
+
+      - LIGO Open Data
+      - FFT by scratch
+      - Spectral Analysis
+      - Data analysis on GW150914
+      - Matched filtering to find the signal
+- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=2f4d95c6-424e-400e-b822-2bf3095ab3be&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=2f4d95c6-424e-400e-b822-2bf3095ab3be&from=3)
+- Notebooks:
+  - Tutorial: [ipynb](./5-GW150914.ipynb) or [html](./5-GW150914.html)
+
+
+
