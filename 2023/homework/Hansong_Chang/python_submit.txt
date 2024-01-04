@@ -35,7 +35,7 @@ C
 D
 B
 A
-D
+C
 D
 A
 B
@@ -53,10 +53,10 @@ A
 B
 D
 D
-A
+B
 A
 D
-A
+B
 C
 B
 B
@@ -72,7 +72,7 @@ D
 B
 C
 A
-B
+C
 C
 B
 B
