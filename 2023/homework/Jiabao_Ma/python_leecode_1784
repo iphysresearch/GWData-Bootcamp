@@ -1,0 +1,10 @@
+class Solution:
+    def checkOnesSegment(self, s: str) -> bool:
+        one_segments = s.split('0')
+        # 按零分割
+        one_segments  = list(filter(lambda x: x != '', one_segments))
+        #排除空集
+        if len(one_segments) == 1:
+            return True
+        else :
+            return False
