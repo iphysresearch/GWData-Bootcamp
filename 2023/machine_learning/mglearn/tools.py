@@ -39,10 +39,7 @@ def heatmap(values, xlabel, ylabel, xticklabels, yticklabels, cmap=None,
 
     for p, color, value in zip(img.get_paths(), img.get_facecolors(), img.get_array()):
         x, y = p.vertices[:-2, :].mean(0)
-        if np.mean(color[:3]) > 0.5:
-            c = 'k'
-        else:
-            c = 'w'
+        c = 'k' if np.mean(color[:3]) > 0.5 else 'w'
         ax.text(x, y, fmt % value, color=c, ha="center", va="center")
     return img
 

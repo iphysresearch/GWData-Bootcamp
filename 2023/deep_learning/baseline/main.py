@@ -256,8 +256,7 @@ def train(net, lr, nsample_perepoch, epoch, total_epochs,
 
         # 如果不是notebook模式，打印当前学习率
         if not notebook:
-            print('Learning rate: {}'.format(
-                        optimizer.state_dict()['param_groups'][0]['lr']))
+            print(f"Learning rate: {optimizer.state_dict()['param_groups'][0]['lr']}")
 
         # 初始化度量累加器，用于计算训练损失总和，训练准确率总和，样本数
         metric = Accumulator(3)
