@@ -2,13 +2,13 @@
 # 第 4 部分 深度学习基础
 
 ## 2023-12-27
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=b2bbb9da-94dd-45df-94f2-b5bf9e095e60&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=b2bbb9da-94dd-45df-94f2-b5bf9e095e60&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=878713271&bvid=BV1DN4y1H7ep](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=878713271&bvid=BV1DN4y1H7ep)
 - Slide: [PDF](https://pan.baidu.com/s/1kX8KbQMiMMOubyTwiqTdXQ?pwd=audc) or [https://slides.com/iphysresearch/gwda_coding_4_ann](https://slides.com/iphysresearch/gwda_coding_4_ann)
 - Notebooks:
   - Multilayer Neural Network Tutorial: [ipynb](./neural_network_scratch.ipynb) or [html](./neural_network_scratch.html)
 
 ## 2023-12-29
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=9dd600c1-9183-443c-9fd5-ad7116440f47&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=9dd600c1-9183-443c-9fd5-ad7116440f47&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=238749156&bvid=BV1Ee411m7Kt](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=238749156&bvid=BV1Ee411m7Kt)
 - Slide: [PDF](https://pan.baidu.com/s/1nwaAbHIl1Ed7JATm3tGxlw?pwd=6h69) or [https://slides.com/iphysresearch/gwda_coding_4_cnn](https://slides.com/iphysresearch/gwda_coding_4_cnn)
 - Notebooks:
   - Convolutional Neural Network Tutorial and gravitational wave detection: [ipynb](./baseline/baseline_sugon.ipynb) or [html](./baseline/baseline_sugon.html)
@@ -31,7 +31,7 @@
 
 ### Timeline
 
-- This competition will start at 10:00 PM (Beijing Time) on December 29, 2023, and end at 11:59 PM (Beijing Time) on January 5, 2024.
+- This competition will start at 10:00 PM (Beijing Time) on December 29, 2023, and end at 11:59 PM (Beijing Time) on January 6, 2024.
 - Please make sure to submit your solutions before the deadline.
 
 - Good luck and may the best team win!
