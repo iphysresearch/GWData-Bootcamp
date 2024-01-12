@@ -45,7 +45,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/11/08](2023/intro/readme.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=a1f3c150-eeb3-4266-a4cc-4099bb28d382&from=3) | Slide: [PDF](2023/intro/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_0)
+  - Date：[2023/11/08](2023/intro/readme.md) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=793550130&bvid=BV1sC4y1Y7CN) | Slide: [PDF](2023/intro/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_0)
 - **Part One**: _Programming Development Environment and Workflow_
     <details>
     <summary>Description</summary>
@@ -59,11 +59,11 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/11/12](2023/workflow/readme.md#2023-11-12) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=af256140-e032-4b0c-9116-5741fad5010b&from=3) | Slide: [PDF](2023/workflow/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1)
+  - Date：[2023/11/12](2023/workflow/readme.md#2023-11-12) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538620703&bvid=BV1xi4y1B7GS) | Slide: [PDF](2023/workflow/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1)
   - [Homework](2023/workflow/readme.md#homework)
       - Docker Container Setup
       - Remote Development for Python/Jupyter with GPU Support and LALsuite/LISAcode Compilation
-  - Date：[2023/11/19](2023/workflow/readme.md#2023-11-19) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=d1e10208-857a-429c-80ee-8a5bfbb88d52&from=3) | Slide: [PDF](2023/workflow/slide_git.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1_git)
+  - Date：[2023/11/19](2023/workflow/readme.md#2023-11-19) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=966071321&bvid=BV1JW4y1A7AY) | Slide: [PDF](2023/workflow/slide_git.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1_git)
   - [Homework](2023/workflow/readme.md#homework-1)
       - Introduction to Git and GitHub Workflow
       - Setting Up and Submitting Homework via GitHub
@@ -88,7 +88,7 @@ This course is meticulously designed to provide a solid foundation in programmin
   
     </details>
 
-  - Date：[2023/11/19](2023/TechTalk1/readme.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=8582150d-9dae-4938-b912-162e6b98bf63&from=3) | Slide: [markdown](2023/TechTalk1/readme.md)
+  - Date：[2023/11/19](2023/TechTalk1/readme.md) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=453718702&bvid=BV1R5411i73y) | Slide: [markdown](2023/TechTalk1/readme.md)
     
 - **Part Two**: _Python-Based Data Analysis Fundamentals_
     <details>
@@ -103,19 +103,19 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/11/29](2023/python/readme.md#2023-11-29) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=38d62612-d754-413f-b6a9-2d0d960f4549&from=3) | Slide: [PDF](2023/python/slide_python.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_python)
-  - Date：[2023/12/01](2023/python/readme.md#2023-12-01) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=0e5f06cb-8c5b-4e28-a1ba-a766025510e4&from=3) | Slide: [PDF](2023/python/slide_numpy.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_numpy)
-  - Date：[2023/12/03](2023/python/readme.md#2023-12-03) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=eef300fb-a794-4aff-93e2-0ec36501b1b6&from=3) | Slide: [PDF](2023/python/slide_pandas.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_pandas)
+  - Date：[2023/11/29](2023/python/readme.md#2023-11-29) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=878535052&bvid=BV1VN4y1v7JR) | Slide: [PDF](2023/python/slide_python.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_python)
+  - Date：[2023/12/01](2023/python/readme.md#2023-12-01) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538693977&bvid=BV1Bi4y1B7VP) | Slide: [PDF](2023/python/slide_numpy.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_numpy)
+  - Date：[2023/12/03](2023/python/readme.md#2023-12-03) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=836210064&bvid=BV1Cg4y1S79t) | Slide: [PDF](2023/python/slide_pandas.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_pandas)
   - [Homework](2023/python/readme.md#homework)
       - Python, Numpy, Pandas Basic Homework
       - Leetcode Extension Tasks
-  - Date：[2023/12/08](2023/python/readme.md#2023-12-08) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=dd9f5242-b3a8-4500-9436-ba190a739c10&from=3) | Slide: [PDF](2023/python/slide_visualization.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_visualization)
-  - Date：[2023/12/10](2023/python/readme.md#2023-12-10) | Video [recording](https://pan.baidu.com/s/1MiqCAMGP7-B76uOHCDgErg?pwd=ph8c)
+  - Date：[2023/12/08](2023/python/readme.md#2023-12-08) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=411155780&bvid=BV1NV411R7Gt) | Slide: [PDF](2023/python/slide_visualization.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_visualization)
+  - Date：[2023/12/10](2023/python/readme.md#2023-12-10) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=238683269&bvid=BV1Ze41127Yz)
   - [Homework](2023/python/readme.md#homework-1)
       - Data visualization and analysis using Python libraries, matplotlib and seaborn.
-  - [Homework](2023/python/4-GWTC3.ipynb)
+  - [Homework](2023/python/4-GWTC3.ipynb) | Vidwo [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=241157282&bvid=BV17e411v7vc)
       - Recreate Figure 7 from the GWTC-3 paper using numpy, pandas, matplotlib, and seaborn.
-  - Date：[2023/12/15](2023/python/readme.md#2023-12-15) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=2f4d95c6-424e-400e-b822-2bf3095ab3be&from=3) | [ipynb](2023/python/5-GW150914.ipynb) | [html](2023/python/5-GW150914.html)
+  - Date：[2023/12/15](2023/python/readme.md#2023-12-15) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=496155740&bvid=BV1DK411v79y) | [ipynb](2023/python/5-GW150914.ipynb) | [html](2023/python/5-GW150914.html)
       - LIGO Open Data + FFT by scratch + Spectral Analysis ([Project](2023/python/5-GW150914.ipynb))
       - Data analysis on GW150914 + Matched filtering to find the signal ([Project](2023/python/5-GW150914.ipynb))
 
@@ -148,8 +148,8 @@ This course is meticulously designed to provide a solid foundation in programmin
   
     </details>
 
-  - Date：[2023/12/16](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=eb4e542d-a49d-4b38-ad1d-1d362ecddbea&from=3) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
-  - Date：[2023/12/17](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=11e13d08-ed8a-4455-a373-6df7bcc0d43a&from=3) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
+  - Date：[2023/12/16](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=751201677&bvid=BV1Yk4y1Q74Q) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
+  - Date：[2023/12/17](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=496196569&bvid=BV19K411v7Sv) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
 
 
 - **Part Three**: _Basics of Machine Learning_
@@ -163,10 +163,10 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/12/22](2023/machine_learning/readme.md#2023-12-22) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=9972f117-e915-431e-9124-c2417f561304&from=3) | Slide: [PDF](2023/machine_learning/slide_ml_1.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_intro)
+  - Date：[2023/12/22](2023/machine_learning/readme.md#2023-12-22) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538650039&bvid=BV1ei4y1B7Lg) | Slide: [PDF](2023/machine_learning/slide_ml_1.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_intro)
   - [Homework](2023/machine_learning/readme.md#homework)
       - Implement a classification model for credit scoring using the sklearn library in Python.
-  - Date：[2023/12/24](2023/machine_learning/readme.md#2023-12-24) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=d4b30c68-910c-4c19-943d-9e49a419ebe7&from=3) | Slide: [PDF](2023/machine_learning/slide_ml_2.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_adv)
+  - Date：[2023/12/24](2023/machine_learning/readme.md#2023-12-24) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=881213209&bvid=BV14K4y1z72Z) | Slide: [PDF](2023/machine_learning/slide_ml_2.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_adv)
       - Use GravitySpy Glitch metadata to build and train a classification model. ([Project](2023/machine_learning/sklearn_gravityspy_glitch_classification.ipynb))
       - Train a clustering model using the time-frequency image information from GravitySpy Glitch. ([Project](2023/machine_learning/sklearn_gravityspy_glitch_cluster_analysis.ipynb))
   - [Homework](2023/machine_learning/readme.md#homework-2)
@@ -184,8 +184,8 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/12/27](2023/deep_learning/readme.md#2023-12-27) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=b2bbb9da-94dd-45df-94f2-b5bf9e095e60&from=3) | Slide: [PDF](https://pan.baidu.com/s/1kX8KbQMiMMOubyTwiqTdXQ?pwd=audc) or [online](https://slides.com/iphysresearch/gwda_coding_4_ann)
-  - Date：[2023/12/29](2023/deep_learning/readme.md#2023-12-29) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=9dd600c1-9183-443c-9fd5-ad7116440f47&from=3) | Slide: [PDF](https://pan.baidu.com/s/1nwaAbHIl1Ed7JATm3tGxlw?pwd=6h69) or [online](https://slides.com/iphysresearch/gwda_coding_4_cnn)
+  - Date：[2023/12/27](2023/deep_learning/readme.md#2023-12-27) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=878713271&bvid=BV1DN4y1H7ep) | Slide: [PDF](https://pan.baidu.com/s/1kX8KbQMiMMOubyTwiqTdXQ?pwd=audc) or [online](https://slides.com/iphysresearch/gwda_coding_4_ann)
+  - Date：[2023/12/29](2023/deep_learning/readme.md#2023-12-29) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=238749156&bvid=BV1Ee411m7Kt) | Slide: [PDF](https://pan.baidu.com/s/1nwaAbHIl1Ed7JATm3tGxlw?pwd=6h69) or [online](https://slides.com/iphysresearch/gwda_coding_4_cnn)
 
 - **Tech Talk**: _AI Revolution: From Concept to GPT Breakthroughs_ (Guest Lecture by [Minquan Gao](https://www.mqgao.com/))
     <details>
@@ -231,7 +231,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/12/31]() | Video [recording]()
+  - Date：[2023/12/31]() | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=836130181&bvid=BV1gg4y1S7Bn)
 
 
 ## Kaggle Data Science Competition (Hackathon)
