@@ -252,7 +252,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
 ### Timeline
 
-- This competition will start at 10:00 PM (Beijing Time) on December 29, 2023, and end at 11:59 PM (Beijing Time) on January 5, 2024.
+- This competition will start at 10:00 PM (Beijing Time) on December 29, 2023, and end at 11:59 PM (Beijing Time) on January 6, 2024.
 - Please make sure to submit your solutions before the deadline.
 
 - Good luck and may the best team win!
