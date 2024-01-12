@@ -14,7 +14,7 @@
 
 
 ## 2023-12-22
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=9972f117-e915-431e-9124-c2417f561304&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=9972f117-e915-431e-9124-c2417f561304&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538650039&bvid=BV1ei4y1B7Lg](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538650039&bvid=BV1ei4y1B7Lg)
 - Slide: [PDF](./slide_ml_1.pdf) or [https://slides.com/iphysresearch/gwda_coding_3_intro](https://slides.com/iphysresearch/gwda_coding_3_intro)
 - Notebooks:
   - Sklearn Classification Tutorial: [ipynb](./sklearn_classification.ipynb) or [html](./sklearn_classification.html)
@@ -31,7 +31,7 @@
 
 
 ## 2023-12-24
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=d4b30c68-910c-4c19-943d-9e49a419ebe7&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=d4b30c68-910c-4c19-943d-9e49a419ebe7&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=881213209&bvid=BV14K4y1z72Z](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=881213209&bvid=BV14K4y1z72Z)
 - Slide: [PDF](./slide_ml_2.pdf) or [https://slides.com/iphysresearch/gwda_coding_3_adv](https://slides.com/iphysresearch/gwda_coding_3_adv)
 - Notebooks:
   - Sklearn Regression Tutorial: [ipynb](./sklearn_regression.ipynb) or [html](./sklearn_regression.html)
