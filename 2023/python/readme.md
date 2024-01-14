@@ -4,7 +4,7 @@
 
 
 ## 2023-11-29
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=38d62612-d754-413f-b6a9-2d0d960f4549&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=38d62612-d754-413f-b6a9-2d0d960f4549&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=878535052&bvid=BV1VN4y1v7JR](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=878535052&bvid=BV1VN4y1v7JR)
 - Slide: [PDF](./slide_python.pdf) or [https://slides.com/iphysresearch/gwda_coding_2_python](https://slides.com/iphysresearch/gwda_coding_2_python)
 - Notebooks:
   - Jupyter Tutorial: [ipynb](./0-jupyter.ipynb) or [html](./0-jupyter.html)
@@ -19,7 +19,7 @@
 ---
 
 ## 2023-12-01
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=0e5f06cb-8c5b-4e28-a1ba-a766025510e4&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=0e5f06cb-8c5b-4e28-a1ba-a766025510e4&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538693977&bvid=BV1Bi4y1B7VP](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538693977&bvid=BV1Bi4y1B7VP)
 - Slide: [PDF](./slide_numpy.pdf) or [https://slides.com/iphysresearch/gwda_coding_2_numpy](https://slides.com/iphysresearch/gwda_coding_2_numpy)
 - Notebooks:
   - Numpy Tutorial: [ipynb](./2-numpy.ipynb) or [html](./2-numpy.html)
@@ -27,7 +27,7 @@
 ---
 
 ## 2023-12-03
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=eef300fb-a794-4aff-93e2-0ec36501b1b6&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=eef300fb-a794-4aff-93e2-0ec36501b1b6&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=836210064&bvid=BV1Cg4y1S79t](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=836210064&bvid=BV1Cg4y1S79t)
 - Slide: [PDF](./slide_pandas.pdf) or [https://slides.com/iphysresearch/gwda_coding_2_pandas](https://slides.com/iphysresearch/gwda_coding_2_pandas)
 - Notebooks:
   - Pandas Tutorial: [ipynb](./3-pandas.ipynb) or [html](./3-pandas.html)
@@ -66,14 +66,15 @@
 ---
 
 ## 2023-12-08
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=dd9f5242-b3a8-4500-9436-ba190a739c10&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=dd9f5242-b3a8-4500-9436-ba190a739c10&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=411155780&bvid=BV1NV411R7Gt](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=411155780&bvid=BV1NV411R7Gt)
 - Slide: [PDF](./slide_visualization.pdf) or [https://slides.com/iphysresearch/gwda_coding_2_visualization](https://slides.com/iphysresearch/gwda_coding_2_visualization)
 - Notebooks:
   - Matplotlib Tutorial: [ipynb](./4-matplotlib.ipynb) or [html](./4-matplotlib.html)
 - Extra Bonus: Click [Visualization analysis and design by Tamara Munzner (z-lib.org).pdf](https://paul.zhdk.ch/pluginfile.php/93332/mod_resource/content/2/Visualization%20analysis%20and%20design%20by%20Tamara%20Munzner%20%28z-lib.org%29.pdf) link to view the file.
 
 ## 2023-12-10
-- Video: [https://pan.baidu.com/s/1MiqCAMGP7-B76uOHCDgErg?pwd=ph8c](https://pan.baidu.com/s/1MiqCAMGP7-B76uOHCDgErg?pwd=ph8c)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=238683269&bvid=BV1Ze41127Yz](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=238683269&bvid=BV1Ze41127Yz)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=241157282&bvid=BV17e411v7vc](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=241157282&bvid=BV17e411v7vc)
 - Notebooks:
   - Matplotlib Tutorial: [ipynb](./4-matplotlib.ipynb) or [html](./4-matplotlib.html)
   - Seaborn Tutorial: [ipynb](./4-seaborn.ipynb) or [html](./4-seaborn.html)
@@ -108,7 +109,7 @@
       - Spectral Analysis
       - Data analysis on GW150914
       - Matched filtering to find the signal
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=2f4d95c6-424e-400e-b822-2bf3095ab3be&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=2f4d95c6-424e-400e-b822-2bf3095ab3be&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=496155740&bvid=BV1DK411v79y](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=496155740&bvid=BV1DK411v79y)
 - Notebooks:
   - Tutorial: [ipynb](./5-GW150914.ipynb) or [html](./5-GW150914.html)
 

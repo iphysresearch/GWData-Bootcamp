@@ -1,7 +1,7 @@
 # 引力波数据探索：编程与分析实战训练营
 # Gravitational Wave Data Exploration: A Practical Training in Programming and Analysis
 
-> Under construction...
+> The course recordings are now available on [Bilibili](​https://space.bilibili.com/76060243/channel/seriesdetail?sid=3896245). <a href="https://space.bilibili.com/76060243/channel/seriesdetail?sid=3896245"><img src="https://f.fameile.net/upload/2022/05/Rogchu.png"  width="30" /></a>
 
 Welcome to the GitHub repository for the Gravitational Wave Data Exploration Bootcamp Series! 
 This course is meticulously designed to provide a solid foundation in programming, operational knowledge, and data-driven modeling skills centered around gravitational wave data analysis and research.
@@ -45,7 +45,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/11/08](2023/intro/readme.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=a1f3c150-eeb3-4266-a4cc-4099bb28d382&from=3) | Slide: [PDF](2023/intro/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_0)
+  - Date：[2023/11/08](2023/intro/readme.md) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=793550130&bvid=BV1sC4y1Y7CN) | Slide: [PDF](2023/intro/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_0)
 - **Part One**: _Programming Development Environment and Workflow_
     <details>
     <summary>Description</summary>
@@ -59,11 +59,11 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/11/12](2023/workflow/readme.md#2023-11-12) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=af256140-e032-4b0c-9116-5741fad5010b&from=3) | Slide: [PDF](2023/workflow/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1)
+  - Date：[2023/11/12](2023/workflow/readme.md#2023-11-12) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538620703&bvid=BV1xi4y1B7GS) | Slide: [PDF](2023/workflow/slide.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1)
   - [Homework](2023/workflow/readme.md#homework)
       - Docker Container Setup
       - Remote Development for Python/Jupyter with GPU Support and LALsuite/LISAcode Compilation
-  - Date：[2023/11/19](2023/workflow/readme.md#2023-11-19) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=d1e10208-857a-429c-80ee-8a5bfbb88d52&from=3) | Slide: [PDF](2023/workflow/slide_git.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1_git)
+  - Date：[2023/11/19](2023/workflow/readme.md#2023-11-19) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=966071321&bvid=BV1JW4y1A7AY) | Slide: [PDF](2023/workflow/slide_git.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_1_git)
   - [Homework](2023/workflow/readme.md#homework-1)
       - Introduction to Git and GitHub Workflow
       - Setting Up and Submitting Homework via GitHub
@@ -88,7 +88,7 @@ This course is meticulously designed to provide a solid foundation in programmin
   
     </details>
 
-  - Date：[2023/11/19](2023/TechTalk1/readme.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=8582150d-9dae-4938-b912-162e6b98bf63&from=3) | Slide: [markdown](2023/TechTalk1/readme.md)
+  - Date：[2023/11/19](2023/TechTalk1/readme.md) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=453718702&bvid=BV1R5411i73y) | Slide: [markdown](2023/TechTalk1/readme.md)
     
 - **Part Two**: _Python-Based Data Analysis Fundamentals_
     <details>
@@ -103,19 +103,19 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/11/29](2023/python/readme.md#2023-11-29) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=38d62612-d754-413f-b6a9-2d0d960f4549&from=3) | Slide: [PDF](2023/python/slide_python.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_python)
-  - Date：[2023/12/01](2023/python/readme.md#2023-12-01) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=0e5f06cb-8c5b-4e28-a1ba-a766025510e4&from=3) | Slide: [PDF](2023/python/slide_numpy.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_numpy)
-  - Date：[2023/12/03](2023/python/readme.md#2023-12-03) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=eef300fb-a794-4aff-93e2-0ec36501b1b6&from=3) | Slide: [PDF](2023/python/slide_pandas.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_pandas)
+  - Date：[2023/11/29](2023/python/readme.md#2023-11-29) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=878535052&bvid=BV1VN4y1v7JR) | Slide: [PDF](2023/python/slide_python.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_python)
+  - Date：[2023/12/01](2023/python/readme.md#2023-12-01) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538693977&bvid=BV1Bi4y1B7VP) | Slide: [PDF](2023/python/slide_numpy.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_numpy)
+  - Date：[2023/12/03](2023/python/readme.md#2023-12-03) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=836210064&bvid=BV1Cg4y1S79t) | Slide: [PDF](2023/python/slide_pandas.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_pandas)
   - [Homework](2023/python/readme.md#homework)
       - Python, Numpy, Pandas Basic Homework
       - Leetcode Extension Tasks
-  - Date：[2023/12/08](2023/python/readme.md#2023-12-08) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=dd9f5242-b3a8-4500-9436-ba190a739c10&from=3) | Slide: [PDF](2023/python/slide_visualization.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_visualization)
-  - Date：[2023/12/10](2023/python/readme.md#2023-12-10) | Video [recording](https://pan.baidu.com/s/1MiqCAMGP7-B76uOHCDgErg?pwd=ph8c)
+  - Date：[2023/12/08](2023/python/readme.md#2023-12-08) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=411155780&bvid=BV1NV411R7Gt) | Slide: [PDF](2023/python/slide_visualization.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_2_visualization)
+  - Date：[2023/12/10](2023/python/readme.md#2023-12-10) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=238683269&bvid=BV1Ze41127Yz)
   - [Homework](2023/python/readme.md#homework-1)
       - Data visualization and analysis using Python libraries, matplotlib and seaborn.
-  - [Homework](2023/python/4-GWTC3.ipynb)
+  - [Homework](2023/python/4-GWTC3.ipynb) | Vidwo [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=241157282&bvid=BV17e411v7vc)
       - Recreate Figure 7 from the GWTC-3 paper using numpy, pandas, matplotlib, and seaborn.
-  - Date：[2023/12/15](2023/python/readme.md#2023-12-15) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=2f4d95c6-424e-400e-b822-2bf3095ab3be&from=3) | [ipynb](2023/python/5-GW150914.ipynb) | [html](2023/python/5-GW150914.html)
+  - Date：[2023/12/15](2023/python/readme.md#2023-12-15) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=496155740&bvid=BV1DK411v79y) | [ipynb](2023/python/5-GW150914.ipynb) | [html](2023/python/5-GW150914.html)
       - LIGO Open Data + FFT by scratch + Spectral Analysis ([Project](2023/python/5-GW150914.ipynb))
       - Data analysis on GW150914 + Matched filtering to find the signal ([Project](2023/python/5-GW150914.ipynb))
 
@@ -148,8 +148,8 @@ This course is meticulously designed to provide a solid foundation in programmin
   
     </details>
 
-  - Date：[2023/12/16](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=eb4e542d-a49d-4b38-ad1d-1d362ecddbea&from=3) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
-  - Date：[2023/12/17](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=11e13d08-ed8a-4455-a373-6df7bcc0d43a&from=3) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
+  - Date：[2023/12/16](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=751201677&bvid=BV1Yk4y1Q74Q) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
+  - Date：[2023/12/17](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/README.md) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=496196569&bvid=BV19K411v7Sv) | Slide: [PDF](https://github.com/BenjaminDbb/BayesianInference4GW_GWData_Bootcamp/blob/main/Junjie%20-%202023%20-%20bayesian%20for%20GWData-Bootcamp.pdf)
 
 
 - **Part Three**: _Basics of Machine Learning_
@@ -163,10 +163,10 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/12/22](2023/machine_learning/readme.md#2023-12-22) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=9972f117-e915-431e-9124-c2417f561304&from=3) | Slide: [PDF](2023/machine_learning/slide_ml_1.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_intro)
+  - Date：[2023/12/22](2023/machine_learning/readme.md#2023-12-22) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538650039&bvid=BV1ei4y1B7Lg) | Slide: [PDF](2023/machine_learning/slide_ml_1.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_intro)
   - [Homework](2023/machine_learning/readme.md#homework)
       - Implement a classification model for credit scoring using the sklearn library in Python.
-  - Date：[2023/12/24](2023/machine_learning/readme.md#2023-12-24) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=d4b30c68-910c-4c19-943d-9e49a419ebe7&from=3) | Slide: [PDF](2023/machine_learning/slide_ml_2.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_adv)
+  - Date：[2023/12/24](2023/machine_learning/readme.md#2023-12-24) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=881213209&bvid=BV14K4y1z72Z) | Slide: [PDF](2023/machine_learning/slide_ml_2.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_3_adv)
       - Use GravitySpy Glitch metadata to build and train a classification model. ([Project](2023/machine_learning/sklearn_gravityspy_glitch_classification.ipynb))
       - Train a clustering model using the time-frequency image information from GravitySpy Glitch. ([Project](2023/machine_learning/sklearn_gravityspy_glitch_cluster_analysis.ipynb))
   - [Homework](2023/machine_learning/readme.md#homework-2)
@@ -184,8 +184,8 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/12/27](2023/deep_learning/readme.md#2023-12-27) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=b2bbb9da-94dd-45df-94f2-b5bf9e095e60&from=3) | Slide: [PDF](https://pan.baidu.com/s/1kX8KbQMiMMOubyTwiqTdXQ?pwd=audc) or [online](https://slides.com/iphysresearch/gwda_coding_4_ann)
-  - Date：[2023/12/29](2023/deep_learning/readme.md#2023-12-29) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=9dd600c1-9183-443c-9fd5-ad7116440f47&from=3) | Slide: [PDF](https://pan.baidu.com/s/1nwaAbHIl1Ed7JATm3tGxlw?pwd=6h69) or [online](https://slides.com/iphysresearch/gwda_coding_4_cnn)
+  - Date：[2023/12/27](2023/deep_learning/readme.md#2023-12-27) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=878713271&bvid=BV1DN4y1H7ep) | Slide: [PDF](https://pan.baidu.com/s/1kX8KbQMiMMOubyTwiqTdXQ?pwd=audc) or [online](https://slides.com/iphysresearch/gwda_coding_4_ann)
+  - Date：[2023/12/29](2023/deep_learning/readme.md#2023-12-29) | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=238749156&bvid=BV1Ee411m7Kt) | Slide: [PDF](https://pan.baidu.com/s/1nwaAbHIl1Ed7JATm3tGxlw?pwd=6h69) or [online](https://slides.com/iphysresearch/gwda_coding_4_cnn)
 
 - **Tech Talk**: _AI Revolution: From Concept to GPT Breakthroughs_ (Guest Lecture by [Minquan Gao](https://www.mqgao.com/))
     <details>
@@ -231,7 +231,22 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2023/12/31]() | Video [recording]()
+  - Date：[2023/12/31]() | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=836130181&bvid=BV1gg4y1S7Bn)
+
+- **Final Part**: _End-of-Camp Ceremony and Wrap-Up_
+    <details>
+    <summary>Description</summary>
+
+        - Acknowledgements
+        - Training Camp Course Review and Summary
+        - Homework Completion & Competition Rankings
+        - Awards Ceremony
+        - Video Recording Sharing + Bilibili Channel Launch + Remember to Star the Course
+        - Welcoming More Feedback and Suggestions
+
+    </details>
+
+  - Date：[2024/01/14](2023/gwda_coding.pdf) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=b393c27f-63ff-434a-9d65-a78a48af0431&from=3) | Slide: [PDF](2023/gwda_coding.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_5)
 
 
 ## Kaggle Data Science Competition (Hackathon)
@@ -252,7 +267,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
 ### Timeline
 
-- This competition will start at 10:00 PM (Beijing Time) on December 29, 2023, and end at 11:59 PM (Beijing Time) on January 5, 2024.
+- This competition will start at 10:00 PM (Beijing Time) on December 29, 2023, and end at 11:59 PM (Beijing Time) on January 6, 2024.
 - Please make sure to submit your solutions before the deadline.
 
 - Good luck and may the best team win!
@@ -266,12 +281,643 @@ This course is meticulously designed to provide a solid foundation in programmin
 
 > Anyway, just check the [baseline notebook](2023/deep_learning/baseline/baseline_sugon.ipynb) for everything!
 
+## Hall of Fame (龍虎榜)
+
+### Homework
+
+- You can view the complete assignment results from the assignments committed by students with a total score of 6 and 7."
+
+| Total Score | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Frequency | 4 | 5 | 6 | 10 | 7 | 23 | 8 |
+| Top Percentage Ranking | $100.00 $% | $93.65 $% | $85.71 $% | $76.19 $% | $60.32 $% | $49.21 $% | $12.70 $% |
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/user321102">
+          <img src="https://avatars.githubusercontent.com/u/151484176?s=100" width="100px;" alt="高远坤"/>
+          <br />
+          <sub><b>高远坤</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=user321102" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Dustingyd">
+          <img src="https://avatars.githubusercontent.com/u/93420760?s=100" width="100px;" alt="郭印达"/>
+          <br />
+          <sub><b>郭印达</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Dustingyd" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Shoupan">
+          <img src="https://avatars.githubusercontent.com/u/112869625?s=100" width="100px;" alt="刘守潘"/>
+          <br />
+          <sub><b>刘守潘</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Shoupan" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/suiranruofeng">
+          <img src="https://avatars.githubusercontent.com/u/41351023?s=100" width="100px;" alt="张徐蔚"/>
+          <br />
+          <sub><b>张徐蔚</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=suiranruofeng" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Tangfengjie">
+          <img src="https://avatars.githubusercontent.com/u/69887831?s=100" width="100px;" alt="汤丰杰"/>
+          <br />
+          <sub><b>汤丰杰</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Tangfengjie" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/suhongqwq">
+          <img src="https://avatars.githubusercontent.com/u/100949104?s=100" width="100px;" alt="苏鸿"/>
+          <br />
+          <sub><b>苏鸿</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=suhongqwq" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/2385877035">
+          <img src="https://avatars.githubusercontent.com/u/151613563?s=100" width="100px;" alt="李炳辰"/>
+          <br />
+          <sub><b>李炳辰</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=2385877035" title="Commit">✅️</a> 
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/haozhao2002">
+          <img src="https://avatars.githubusercontent.com/u/152390558?s=100" width="100px;" alt="郝赵"/>
+          <br />
+          <sub><b>郝赵</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=haozhao2002" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/hzy24">
+          <img src="https://avatars.githubusercontent.com/u/38902141?s=100" width="100px;" alt="黄震洋"/>
+          <br />
+          <sub><b>黄震洋</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=hzy24" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/JunFan0">
+          <img src="https://avatars.githubusercontent.com/u/151725601?s=100" width="100px;" alt="范钧"/>
+          <br />
+          <sub><b>范钧</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=JunFan0" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/ZenghuiZou">
+          <img src="https://avatars.githubusercontent.com/u/143919061?s=100" width="100px;" alt="邹增慧"/>
+          <br />
+          <sub><b>邹增慧</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=ZenghuiZou" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/SuperAmazingMeng">
+          <img src="https://avatars.githubusercontent.com/u/150605858?s=100" width="100px;" alt="蒙晓锋"/>
+          <br />
+          <sub><b>蒙晓锋</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=SuperAmazingMeng" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Qinglsr">
+          <img src="https://avatars.githubusercontent.com/u/102406423?s=100" width="100px;" alt="刘世睿"/>
+          <br />
+          <sub><b>刘世睿</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Qinglsr" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/itpmds">
+          <img src="https://avatars.githubusercontent.com/u/70871491?s=100" width="100px;" alt="孟德双"/>
+          <br />
+          <sub><b>孟德双</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=itpmds" title="Commit">✅️</a> 
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/LogicMoriaty">
+          <img src="https://avatars.githubusercontent.com/u/107927455?s=100" width="100px;" alt="董玉豪"/>
+          <br />
+          <sub><b>董玉豪</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=LogicMoriaty" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Doubleking-1">
+          <img src="https://avatars.githubusercontent.com/u/71910936?s=100" width="100px;" alt="王尊"/>
+          <br />
+          <sub><b>王尊</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Doubleking-1" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/zhuyan39">
+          <img src="https://avatars.githubusercontent.com/u/151644281?s=100" width="100px;" alt="薛亚东"/>
+          <br />
+          <sub><b>薛亚东</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=zhuyan39" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/GitLuckyRan">
+          <img src="https://avatars.githubusercontent.com/u/124147251?s=100" width="100px;" alt="刘冉"/>
+          <br />
+          <sub><b>刘冉</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=GitLuckyRan" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/anjo233">
+          <img src="https://avatars.githubusercontent.com/u/81004959?s=100" width="100px;" alt="单磊磊"/>
+          <br />
+          <sub><b>单磊磊</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=anjo233" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/zoujing23">
+          <img src="https://avatars.githubusercontent.com/u/151840794?s=100" width="100px;" alt="邹靓"/>
+          <br />
+          <sub><b>邹靓</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=zoujing23" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/sophia-in-shao">
+          <img src="https://avatars.githubusercontent.com/u/117913801?s=100" width="100px;" alt="沈萍"/>
+          <br />
+          <sub><b>沈萍</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=sophia-in-shao" title="Commit">✅️</a> 
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Minderheiten">
+          <img src="https://avatars.githubusercontent.com/u/105500750?s=100" width="100px;" alt="韩佩佳"/>
+          <br />
+          <sub><b>韩佩佳</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Minderheiten" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/fargoing">
+          <img src="https://avatars.githubusercontent.com/u/9104667?s=100" width="100px;" alt="吉祥"/>
+          <br />
+          <sub><b>吉祥</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=fargoing" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/ymphys">
+          <img src="https://avatars.githubusercontent.com/u/83771689?s=100" width="100px;" alt="张嘉宝"/>
+          <br />
+          <sub><b>张嘉宝</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=ymphys" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/luopeis">
+          <img src="https://avatars.githubusercontent.com/u/128964528?s=100" width="100px;" alt="潘洋"/>
+          <br />
+          <sub><b>潘洋</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=luopeis" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/HibiscuitDeCJ">
+          <img src="https://avatars.githubusercontent.com/u/151739208?s=100" width="100px;" alt="周子力"/>
+          <br />
+          <sub><b>周子力</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=HibiscuitDeCJ" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Dawn-19">
+          <img src="https://avatars.githubusercontent.com/u/103760888?s=100" width="100px;" alt="邱智翀"/>
+          <br />
+          <sub><b>邱智翀</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Dawn-19" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/orangetome">
+          <img src="https://avatars.githubusercontent.com/u/118738066?s=100" width="100px;" alt="李倾城"/>
+          <br />
+          <sub><b>李倾城</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=orangetome" title="Commit">✅️</a> 
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/JyusingHo">
+          <img src="https://avatars.githubusercontent.com/u/151446121?s=100" width="100px;" alt="何禹成"/>
+          <br />
+          <sub><b>何禹成</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=JyusingHo" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/WTLleo">
+          <img src="https://avatars.githubusercontent.com/u/90229213?s=100" width="100px;" alt="王天龙"/>
+          <br />
+          <sub><b>王天龙</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=WTLleo" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/ShadowLeaper">
+          <img src="https://avatars.githubusercontent.com/u/152157382?s=100" width="100px;" alt="汪一凡"/>
+          <br />
+          <sub><b>汪一凡</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=ShadowLeaper" title="Commit">✅️</a> 
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Leaderboard of Kaggle Competition
+
+- https://www.kaggle.com/competitions/2023-gwdata-bootcamp/leaderboard
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Team</th>
+      <th>Members</th>
+      <th>Score</th>
+      <th>Rank</th>
+      <th>Team</th>
+      <th>Members</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Row 1-2 -->
+    <tr>
+      <td>1</td>
+      <td>XAO</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/hzy24">
+          <sub><b>黄震洋</b></sub>
+        </a> 
+        <br />
+        <a href="https://github.com/suiranruofeng">
+          <sub><b>张徐蔚</b></sub>
+        </a>
+      </td>
+      <td>0.86173</td>
+      <td>16</td>
+      <td>Yuanhao Zhang</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>张渊皞</b></sub>
+      </td>
+      <td>0.83317</td>
+    </tr>
+    <!-- Row 3-4 -->
+    <tr>
+      <td>2</td>
+      <td>UCAS Li Jiahao</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://www.kaggle.com/ucaslijiahao">
+          <sub><b>李嘉豪</b></sub>
+        </a> 
+      </td>
+      <td>0.86160</td>
+      <td>17</td>
+      <td>B4rRY_G</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>郭意扬</b></sub>
+        <br />
+        <sub><b>赖景祺</b></sub>
+      </td>
+      <td>0.82729</td>
+    </tr>
+    <!-- Row 5-6 -->
+    <tr>
+      <td>3</td>
+      <td>UCAS_212x2</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://www.kaggle.com/ucas212x2">
+          <sub><b>刘洋毓</b></sub>
+        </a> 
+      </td>
+      <td>0.86157</td>
+      <td>18</td>
+      <td>Shao dong zhao</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>赵少东</b></sub>
+      </td>
+      <td>0.82723</td>
+    </tr>
+    <!-- Row 7-8 -->
+    <tr>
+      <td>4</td>
+      <td>sophiainshao</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/sophia-in-shao">
+          <sub><b>沈萍</b></sub>
+        </a> 
+      </td>
+      <td>0.86145</td>
+      <td>19</td>
+      <td>Sparkle79</td>
+      <td align="center" valign="top" width="14.28%">
+        <!-- Assuming no members or link available -->
+      </td>
+      <td>0.82595</td>
+    </tr>
+    <!-- Row 9-10 -->
+    <tr>
+      <td>5</td>
+      <td>Haihao SHI</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://www.kaggle.com/shihaihao">
+          <sub><b>史海浩</b></sub>
+        </a> 
+      </td>
+      <td>0.85954</td>
+      <td>20</td>
+      <td>Shoupan Liu</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>刘守潘</b></sub>
+      </td>
+      <td>0.82526</td>
+    </tr>
+    <!-- Row 11-12 -->
+    <tr>
+      <td>6</td>
+      <td>Yinda Guo</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Dustingyd">
+          <sub><b>郭印达</b></sub>
+        </a>
+      </td>
+      <td>0.85832</td>
+      <td>21</td>
+      <td>Capoo Cat</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>孙文博</b></sub>
+      </td>
+      <td>0.82387</td>
+    </tr>
+    <!-- Row 13-14 -->
+    <tr>
+      <td>7</td>
+      <td>deslenlir</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://www.kaggle.com/deslenlir">
+          <sub><b>温怡蓉</b></sub>
+        </a>
+      </td>
+      <td>0.85753</td>
+      <td>22</td>
+      <td>Tian_Jun</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>田军</b></sub>
+      </td>
+      <td>0.82204</td>
+    </tr>
+    <!-- Row 15-16 -->
+    <tr>
+      <td>8</td>
+      <td>MengXiaofeng-UCAS</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/SuperAmazingMeng">
+          <sub><b>蒙晓锋</b></sub>
+        </a>
+      </td>
+      <td>0.85188</td>
+      <td>23</td>
+      <td>Zhao_Hao</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>郝赵</b></sub>
+      </td>
+      <td>0.82047</td>
+    </tr>
+    <!-- Row 17-18 -->
+    <tr>
+      <td>9</td>
+      <td>1500！！！</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/GitLuckyRan">
+          <sub><b>刘冉</b></sub>
+        </a>
+        <br />
+        <a href="https://github.com/Qinglsr">
+          <sub><b>刘世睿</b></sub>
+        </a>
+        <br />
+        <a href="https://github.com/WTLleo">
+          <sub><b>王天龙</b></sub>
+        </a>
+      </td>
+      <td>0.84868</td>
+      <td>24</td>
+      <td>douking</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>王尊</b></sub>
+      </td>
+      <td>0.81871</td>
+    </tr>
+    <!-- Row 19-20 -->
+    <tr>
+      <td>10</td>
+      <td>Qinglin Yan</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://www.kaggle.com/wtl777">
+          <sub><b>王霆澜</b></sub>
+        </a>
+        <br />
+        <a href="https://www.kaggle.com/qinglinyan">
+          <sub><b>闫庆琳</b></sub>
+        </a>
+      </td>
+      <td>0.84530</td>
+      <td>25</td>
+      <td>JunFan</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>范钧</b></sub>
+</td>
+<td>0.8141</td>
+</tr>
+<!-- Remaining rows -->
+<tr>
+<td>11</td>
+<td>Zhiqing Zhu</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>朱智清</b></sub>
+</td>
+<td>0.84527</td>
+<td>26</td>
+<td>Phi267</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>秦戈宇</b></sub>
+</td>
+<td>0.81304</td>
+</tr>
+<tr>
+<td>12</td>
+<td>knnbenn</td>
+<td align="center" valign="top" width="14.28%">
+<!-- Assuming no members or link available -->
+</td>
+<td>0.84023</td>
+<td>27</td>
+<td>tastonlyjust</td>
+<td align="center" valign="top" width="14.28%">
+<!-- Assuming no members or link available -->
+</td>
+<td>0.81038</td>
+</tr>
+<tr>
+<td>13</td>
+<td>HIAS</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>苏鸿</b></sub>
+<br />
+<sub><b>张景瑞</b></sub>
+<br />
+<sub><b>汤丰杰</b></sub>
+</td>
+<td>0.84023</td>
+<td>28</td>
+<td>junda zhou</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>周均达</b></sub>
+</td>
+<td>0.80846</td>
+</tr>
+<tr>
+<td>14</td>
+<td>HanPeijia</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>韩佩佳</b></sub>
+</td>
+<td>0.84003</td>
+<td>29</td>
+<td>SCU_CTP</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>曹旭</b></sub>
+<br />
+<sub><b>高鸿飞</b></sub>
+<br />
+<sub><b>李志威</b></sub>
+</td>
+<td>0.80705</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Zenghui Zou</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>邹增慧</b></sub>
+<br />
+<sub><b>李倾城</b></sub>
+</td>
+<td>0.83883</td>
+<td>30</td>
+<td>DESHUANGMeng</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>孟德双</b></sub>
+</td>
+<td>0.80462</td>
+</tr>
+  </tbody>
+</table>          
+  </tbody>
+</table>
+
 
 ## Getting Started
 
 Welcome to the course project! To get started with your programming assignments, you'll need to set up your workspace. Here's a step-by-step guide to help you through the process.
 
-### Step 1: Set Up Your GitHub Account and Fork the Repository
+<details>
+<summary>Step 1: Set Up Your GitHub Account and Fork the Repository</summary>
 
 1. **Create a GitHub Account**: If you don't already have a GitHub account, go to [GitHub](https://github.com/) and sign up.
 2. **Fork the Course Repository**:
@@ -286,7 +932,10 @@ Welcome to the course project! To get started with your programming assignments,
       ```
     - Replace `<YourGitHubUsername>` with your actual GitHub username.
 
-### Step 2: Set Up Your Local Workspace
+</details>
+
+<details>
+<summary>Step 2: Set Up Your Local Workspace</summary>
 
 1. **Switch to the `homework` Branch**:
     - Navigate to your cloned repository's directory:
@@ -304,7 +953,10 @@ Welcome to the course project! To get started with your programming assignments,
       ```
       - Replace `<YourName>` with your name or a unique identifier.
 
-### Step 3: Submitting Your Homework
+</details>
+
+<details>
+<summary>Step 3: Submitting Your Homework</summary>
 
 1. **Complete Your Assignments**:
      - Add your completed assignments to your personal homework directory that you created in the previous step.
@@ -326,6 +978,8 @@ Welcome to the course project! To get started with your programming assignments,
     - Ensure the base repository is set to the original `GWData-Bootcamp` repository and the base branch is set to `homework`.
     - Complete the PR form and submit.
     - The GitHub Actions workflow will automatically check your submission ([Homework](2023/python/readme.md#homework)) and compare it with the solution. If your submission passes the check, a merge request will be initiated. Please note that only the repository owners have the authority to merge the request.
+
+</details>
 
 
 ### Important Notes

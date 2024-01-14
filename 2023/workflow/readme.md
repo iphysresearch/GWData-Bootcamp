@@ -4,7 +4,7 @@
 
 
 ## 2023-11-12
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=af256140-e032-4b0c-9116-5741fad5010b&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=af256140-e032-4b0c-9116-5741fad5010b&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538620703&bvid=BV1xi4y1B7GS](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=538620703&bvid=BV1xi4y1B7GS)
 - Slide: [PDF](./slide.pdf) or [https://slides.com/iphysresearch/gwda_coding_1](https://slides.com/iphysresearch/gwda_coding_1)
 
 ### Homework
@@ -25,7 +25,7 @@
   - https://lisa-ldc.lal.in2p3.fr/
 
 ## 2023-11-19
-- Video: [https://meeting.tencent.com/v2/cloud-record/share?id=d1e10208-857a-429c-80ee-8a5bfbb88d52&from=3](https://meeting.tencent.com/v2/cloud-record/share?id=d1e10208-857a-429c-80ee-8a5bfbb88d52&from=3)
+- Video: [https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=966071321&bvid=BV1JW4y1A7AY](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=966071321&bvid=BV1JW4y1A7AY)
 - Slide: [PDF](./slide_git.pdf) or [https://slides.com/iphysresearch/gwda_coding_1_git](https://slides.com/iphysresearch/gwda_coding_1_git)
 
 ### Homework
