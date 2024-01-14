@@ -271,7 +271,8 @@ This course is meticulously designed to provide a solid foundation in programmin
 
 Welcome to the course project! To get started with your programming assignments, you'll need to set up your workspace. Here's a step-by-step guide to help you through the process.
 
-### Step 1: Set Up Your GitHub Account and Fork the Repository
+<details>
+<summary>Step 1: Set Up Your GitHub Account and Fork the Repository</summary>
 
 1. **Create a GitHub Account**: If you don't already have a GitHub account, go to [GitHub](https://github.com/) and sign up.
 2. **Fork the Course Repository**:
@@ -286,7 +287,10 @@ Welcome to the course project! To get started with your programming assignments,
       ```
     - Replace `<YourGitHubUsername>` with your actual GitHub username.
 
-### Step 2: Set Up Your Local Workspace
+</details>
+
+<details>
+<summary>Step 2: Set Up Your Local Workspace</summary>
 
 1. **Switch to the `homework` Branch**:
     - Navigate to your cloned repository's directory:
@@ -304,7 +308,10 @@ Welcome to the course project! To get started with your programming assignments,
       ```
       - Replace `<YourName>` with your name or a unique identifier.
 
-### Step 3: Submitting Your Homework
+</details>
+
+<details>
+<summary>Step 3: Submitting Your Homework</summary>
 
 1. **Complete Your Assignments**:
      - Add your completed assignments to your personal homework directory that you created in the previous step.
@@ -326,6 +333,8 @@ Welcome to the course project! To get started with your programming assignments,
     - Ensure the base repository is set to the original `GWData-Bootcamp` repository and the base branch is set to `homework`.
     - Complete the PR form and submit.
     - The GitHub Actions workflow will automatically check your submission ([Homework](2023/python/readme.md#homework)) and compare it with the solution. If your submission passes the check, a merge request will be initiated. Please note that only the repository owners have the authority to merge the request.
+
+</details>
 
 
 ### Important Notes
