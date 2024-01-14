@@ -267,6 +267,96 @@ This course is meticulously designed to provide a solid foundation in programmin
 > Anyway, just check the [baseline notebook](2023/deep_learning/baseline/baseline_sugon.ipynb) for everything!
 
 
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/user321102">
+          <img src="https://avatars.githubusercontent.com/u/151484176?s=100" width="100px;" alt="高远坤"/>
+          <br />
+          <sub><b>高远坤</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=user321102" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Dustingyd">
+          <img src="https://avatars.githubusercontent.com/u/93420760?s=100" width="100px;" alt="郭印达"/>
+          <br />
+          <sub><b>郭印达</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Dustingyd" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Shoupan">
+          <img src="https://avatars.githubusercontent.com/u/112869625?s=100" width="100px;" alt="刘守潘"/>
+          <br />
+          <sub><b>刘守潘</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Shoupan" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/suiranruofeng">
+          <img src="https://avatars.githubusercontent.com/u/41351023?s=100" width="100px;" alt="张徐蔚"/>
+          <br />
+          <sub><b>张徐蔚</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=suiranruofeng" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Tangfengjie">
+          <img src="https://avatars.githubusercontent.com/u/69887831?s=100" width="100px;" alt="汤丰杰"/>
+          <br />
+          <sub><b>汤丰杰</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Tangfengjie" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/suhongqwq">
+          <img src="https://avatars.githubusercontent.com/u/100949104?s=100" width="100px;" alt="苏鸿"/>
+          <br />
+          <sub><b>苏鸿</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=suhongqwq" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/2385877035">
+          <img src="https://avatars.githubusercontent.com/u/151613563?s=100" width="100px;" alt="李炳辰"/>
+          <br />
+          <sub><b>李炳辰</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=2385877035" title="Commit">✅️</a> 
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/haozhao2002">
+          <img src="https://avatars.githubusercontent.com/u/152390558?s=100" width="100px;" alt="郝赵"/>
+          <br />
+          <sub><b>郝赵</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">7️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=haozhao2002" title="Commit">✅️</a> 
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ## Getting Started
 
 Welcome to the course project! To get started with your programming assignments, you'll need to set up your workspace. Here's a step-by-step guide to help you through the process.
