@@ -266,7 +266,16 @@ This course is meticulously designed to provide a solid foundation in programmin
 
 > Anyway, just check the [baseline notebook](2023/deep_learning/baseline/baseline_sugon.ipynb) for everything!
 
+## Hall of Fame (龍虎榜)
 
+### Homework
+
+- You can view the complete assignment results from the assignments committed by students with a total score of 6 and 7."
+
+| Total Score | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Frequency | 4 | 5 | 6 | 10 | 7 | 23 | 8 |
+| Top Percentage Ranking | $100.00 $% | $93.65 $% | $85.71 $% | $76.19 $% | $60.32 $% | $49.21 $% | $12.70 $% |
 
 <table>
   <tbody>
@@ -352,6 +361,242 @@ This course is meticulously designed to provide a solid foundation in programmin
         <br />
         <a href="#" title="Score">7️⃣</a> 
         <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=haozhao2002" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/hzy24">
+          <img src="https://avatars.githubusercontent.com/u/38902141?s=100" width="100px;" alt="黄震洋"/>
+          <br />
+          <sub><b>黄震洋</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=hzy24" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/JunFan0">
+          <img src="https://avatars.githubusercontent.com/u/151725601?s=100" width="100px;" alt="范钧"/>
+          <br />
+          <sub><b>范钧</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=JunFan0" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/ZenghuiZou">
+          <img src="https://avatars.githubusercontent.com/u/143919061?s=100" width="100px;" alt="邹增慧"/>
+          <br />
+          <sub><b>邹增慧</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=ZenghuiZou" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/SuperAmazingMeng">
+          <img src="https://avatars.githubusercontent.com/u/150605858?s=100" width="100px;" alt="蒙晓锋"/>
+          <br />
+          <sub><b>蒙晓锋</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=SuperAmazingMeng" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Qinglsr">
+          <img src="https://avatars.githubusercontent.com/u/102406423?s=100" width="100px;" alt="刘世睿"/>
+          <br />
+          <sub><b>刘世睿</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Qinglsr" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/itpmds">
+          <img src="https://avatars.githubusercontent.com/u/70871491?s=100" width="100px;" alt="孟德双"/>
+          <br />
+          <sub><b>孟德双</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=itpmds" title="Commit">✅️</a> 
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/LogicMoriaty">
+          <img src="https://avatars.githubusercontent.com/u/107927455?s=100" width="100px;" alt="董玉豪"/>
+          <br />
+          <sub><b>董玉豪</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=LogicMoriaty" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Doubleking-1">
+          <img src="https://avatars.githubusercontent.com/u/71910936?s=100" width="100px;" alt="王尊"/>
+          <br />
+          <sub><b>王尊</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Doubleking-1" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/zhuyan39">
+          <img src="https://avatars.githubusercontent.com/u/151644281?s=100" width="100px;" alt="薛亚东"/>
+          <br />
+          <sub><b>薛亚东</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=zhuyan39" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/GitLuckyRan">
+          <img src="https://avatars.githubusercontent.com/u/124147251?s=100" width="100px;" alt="刘冉"/>
+          <br />
+          <sub><b>刘冉</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=GitLuckyRan" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/anjo233">
+          <img src="https://avatars.githubusercontent.com/u/81004959?s=100" width="100px;" alt="单磊磊"/>
+          <br />
+          <sub><b>单磊磊</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=anjo233" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/zoujing23">
+          <img src="https://avatars.githubusercontent.com/u/151840794?s=100" width="100px;" alt="邹靓"/>
+          <br />
+          <sub><b>邹靓</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=zoujing23" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/sophia-in-shao">
+          <img src="https://avatars.githubusercontent.com/u/117913801?s=100" width="100px;" alt="沈萍"/>
+          <br />
+          <sub><b>沈萍</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=sophia-in-shao" title="Commit">✅️</a> 
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Minderheiten">
+          <img src="https://avatars.githubusercontent.com/u/105500750?s=100" width="100px;" alt="韩佩佳"/>
+          <br />
+          <sub><b>韩佩佳</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Minderheiten" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/fargoing">
+          <img src="https://avatars.githubusercontent.com/u/9104667?s=100" width="100px;" alt="吉祥"/>
+          <br />
+          <sub><b>吉祥</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=fargoing" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/ymphys">
+          <img src="https://avatars.githubusercontent.com/u/83771689?s=100" width="100px;" alt="张嘉宝"/>
+          <br />
+          <sub><b>张嘉宝</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=ymphys" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/luopeis">
+          <img src="https://avatars.githubusercontent.com/u/128964528?s=100" width="100px;" alt="潘洋"/>
+          <br />
+          <sub><b>潘洋</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=luopeis" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/HibiscuitDeCJ">
+          <img src="https://avatars.githubusercontent.com/u/151739208?s=100" width="100px;" alt="周子力"/>
+          <br />
+          <sub><b>周子力</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=HibiscuitDeCJ" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Dawn-19">
+          <img src="https://avatars.githubusercontent.com/u/103760888?s=100" width="100px;" alt="邱智翀"/>
+          <br />
+          <sub><b>邱智翀</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=Dawn-19" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/orangetome">
+          <img src="https://avatars.githubusercontent.com/u/118738066?s=100" width="100px;" alt="李倾城"/>
+          <br />
+          <sub><b>李倾城</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=orangetome" title="Commit">✅️</a> 
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/JyusingHo">
+          <img src="https://avatars.githubusercontent.com/u/151446121?s=100" width="100px;" alt="何禹成"/>
+          <br />
+          <sub><b>何禹成</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=JyusingHo" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/WTLleo">
+          <img src="https://avatars.githubusercontent.com/u/90229213?s=100" width="100px;" alt="王天龙"/>
+          <br />
+          <sub><b>王天龙</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=WTLleo" title="Commit">✅️</a> 
+      </td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/ShadowLeaper">
+          <img src="https://avatars.githubusercontent.com/u/152157382?s=100" width="100px;" alt="汪一凡"/>
+          <br />
+          <sub><b>汪一凡</b></sub>
+        </a>
+        <br />
+        <a href="#" title="Score">6️⃣</a> 
+        <a href="https://github.com/iphysresearch/GWData-Bootcamp/commits/homework?author=ShadowLeaper" title="Commit">✅️</a> 
       </td>
     </tr>
   </tbody>
