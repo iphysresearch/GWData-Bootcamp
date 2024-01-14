@@ -1,7 +1,7 @@
 # 引力波数据探索：编程与分析实战训练营
 # Gravitational Wave Data Exploration: A Practical Training in Programming and Analysis
 
-> Under construction...
+> The course recordings are now available on [Bilibili](​https://space.bilibili.com/76060243/channel/seriesdetail?sid=3896245). <a href="https://space.bilibili.com/76060243/channel/seriesdetail?sid=3896245"><img src="https://f.fameile.net/upload/2022/05/Rogchu.png"  width="30" /></a>
 
 Welcome to the GitHub repository for the Gravitational Wave Data Exploration Bootcamp Series! 
 This course is meticulously designed to provide a solid foundation in programming, operational knowledge, and data-driven modeling skills centered around gravitational wave data analysis and research.
@@ -232,6 +232,21 @@ This course is meticulously designed to provide a solid foundation in programmin
     </details>
 
   - Date：[2023/12/31]() | Video [recording](https://www.bilibili.com/list/76060243?sid=3896245&spm_id_from=333.999.0.0&desc=1&oid=836130181&bvid=BV1gg4y1S7Bn)
+
+- **Final Part**: _End-of-Camp Ceremony and Wrap-Up_
+    <details>
+    <summary>Description</summary>
+
+        - Acknowledgements
+        - Training Camp Course Review and Summary
+        - Homework Completion & Competition Rankings
+        - Awards Ceremony
+        - Video Recording Sharing + Bilibili Channel Launch + Remember to Star the Course
+        - Welcoming More Feedback and Suggestions
+
+    </details>
+
+  - Date：2024/01/14 | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=b393c27f-63ff-434a-9d65-a78a48af0431&from=3) | Slide: [PDF](https://pan.baidu.com/s/1kX8KbQMiMMOubyTwiqTdXQ?pwd=audc) or [online](https://slides.com/iphysresearch/gwda_coding_5)
 
 
 ## Kaggle Data Science Competition (Hackathon)
