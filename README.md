@@ -602,6 +602,301 @@ This course is meticulously designed to provide a solid foundation in programmin
   </tbody>
 </table>
 
+
+### Leaderboard of Kaggle Competition
+
+- https://www.kaggle.com/competitions/2023-gwdata-bootcamp/leaderboard
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Team</th>
+      <th>Members</th>
+      <th>Score</th>
+      <th>Rank</th>
+      <th>Team</th>
+      <th>Members</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Row 1-2 -->
+    <tr>
+      <td>1</td>
+      <td>XAO</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/hzy24">
+          <sub><b>黄震洋</b></sub>
+        </a> 
+        <br />
+        <a href="https://github.com/suiranruofeng">
+          <sub><b>张徐蔚</b></sub>
+        </a>
+      </td>
+      <td>0.86173</td>
+      <td>16</td>
+      <td>Yuanhao Zhang</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>张渊皞</b></sub>
+      </td>
+      <td>0.83317</td>
+    </tr>
+    <!-- Row 3-4 -->
+    <tr>
+      <td>2</td>
+      <td>UCAS Li Jiahao</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://www.kaggle.com/ucaslijiahao">
+          <sub><b>李嘉豪</b></sub>
+        </a> 
+      </td>
+      <td>0.86160</td>
+      <td>17</td>
+      <td>B4rRY_G</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>郭意扬</b></sub>
+        <br />
+        <sub><b>赖景祺</b></sub>
+      </td>
+      <td>0.82729</td>
+    </tr>
+    <!-- Row 5-6 -->
+    <tr>
+      <td>3</td>
+      <td>UCAS_212x2</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://www.kaggle.com/ucas212x2">
+          <sub><b>刘洋毓</b></sub>
+        </a> 
+      </td>
+      <td>0.86157</td>
+      <td>18</td>
+      <td>Shao dong zhao</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>赵少东</b></sub>
+      </td>
+      <td>0.82723</td>
+    </tr>
+    <!-- Row 7-8 -->
+    <tr>
+      <td>4</td>
+      <td>sophiainshao</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/sophia-in-shao">
+          <sub><b>沈萍</b></sub>
+        </a> 
+      </td>
+      <td>0.86145</td>
+      <td>19</td>
+      <td>Sparkle79</td>
+      <td align="center" valign="top" width="14.28%">
+        <!-- Assuming no members or link available -->
+      </td>
+      <td>0.82595</td>
+    </tr>
+    <!-- Row 9-10 -->
+    <tr>
+      <td>5</td>
+      <td>Haihao SHI</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://www.kaggle.com/shihaihao">
+          <sub><b>史海浩</b></sub>
+        </a> 
+      </td>
+      <td>0.85954</td>
+      <td>20</td>
+      <td>Shoupan Liu</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>刘守潘</b></sub>
+      </td>
+      <td>0.82526</td>
+    </tr>
+    <!-- Row 11-12 -->
+    <tr>
+      <td>6</td>
+      <td>Yinda Guo</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/Dustingyd">
+          <sub><b>郭印达</b></sub>
+        </a>
+      </td>
+      <td>0.85832</td>
+      <td>21</td>
+      <td>Capoo Cat</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>孙文博</b></sub>
+      </td>
+      <td>0.82387</td>
+    </tr>
+    <!-- Row 13-14 -->
+    <tr>
+      <td>7</td>
+      <td>deslenlir</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://www.kaggle.com/deslenlir">
+          <sub><b>温怡蓉</b></sub>
+        </a>
+      </td>
+      <td>0.85753</td>
+      <td>22</td>
+      <td>Tian_Jun</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>田军</b></sub>
+      </td>
+      <td>0.82204</td>
+    </tr>
+    <!-- Row 15-16 -->
+    <tr>
+      <td>8</td>
+      <td>MengXiaofeng-UCAS</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/SuperAmazingMeng">
+          <sub><b>蒙晓锋</b></sub>
+        </a>
+      </td>
+      <td>0.85188</td>
+      <td>23</td>
+      <td>Zhao_Hao</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>郝赵</b></sub>
+      </td>
+      <td>0.82047</td>
+    </tr>
+    <!-- Row 17-18 -->
+    <tr>
+      <td>9</td>
+      <td>1500！！！</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://github.com/GitLuckyRan">
+          <sub><b>刘冉</b></sub>
+        </a>
+        <br />
+        <a href="https://github.com/Qinglsr">
+          <sub><b>刘世睿</b></sub>
+        </a>
+        <br />
+        <a href="https://github.com/WTLleo">
+          <sub><b>王天龙</b></sub>
+        </a>
+      </td>
+      <td>0.84868</td>
+      <td>24</td>
+      <td>douking</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>王尊</b></sub>
+      </td>
+      <td>0.81871</td>
+    </tr>
+    <!-- Row 19-20 -->
+    <tr>
+      <td>10</td>
+      <td>Qinglin Yan</td>
+      <td align="center" valign="top" width="14.28%">
+        <a href="https://www.kaggle.com/wtl777">
+          <sub><b>王霆澜</b></sub>
+        </a>
+        <br />
+        <a href="https://www.kaggle.com/qinglinyan">
+          <sub><b>闫庆琳</b></sub>
+        </a>
+      </td>
+      <td>0.84530</td>
+      <td>25</td>
+      <td>JunFan</td>
+      <td align="center" valign="top" width="14.28%">
+        <sub><b>范钧</b></sub>
+</td>
+<td>0.8141</td>
+</tr>
+<!-- Remaining rows -->
+<tr>
+<td>11</td>
+<td>Zhiqing Zhu</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>朱智清</b></sub>
+</td>
+<td>0.84527</td>
+<td>26</td>
+<td>Phi267</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>秦戈宇</b></sub>
+</td>
+<td>0.81304</td>
+</tr>
+<tr>
+<td>12</td>
+<td>knnbenn</td>
+<td align="center" valign="top" width="14.28%">
+<!-- Assuming no members or link available -->
+</td>
+<td>0.84023</td>
+<td>27</td>
+<td>tastonlyjust</td>
+<td align="center" valign="top" width="14.28%">
+<!-- Assuming no members or link available -->
+</td>
+<td>0.81038</td>
+</tr>
+<tr>
+<td>13</td>
+<td>HIAS</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>苏鸿</b></sub>
+<br />
+<sub><b>张景瑞</b></sub>
+<br />
+<sub><b>汤丰杰</b></sub>
+</td>
+<td>0.84023</td>
+<td>28</td>
+<td>junda zhou</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>周均达</b></sub>
+</td>
+<td>0.80846</td>
+</tr>
+<tr>
+<td>14</td>
+<td>HanPeijia</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>韩佩佳</b></sub>
+</td>
+<td>0.84003</td>
+<td>29</td>
+<td>SCU_CTP</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>曹旭</b></sub>
+<br />
+<sub><b>高鸿飞</b></sub>
+<br />
+<sub><b>李志威</b></sub>
+</td>
+<td>0.80705</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Zenghui Zou</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>邹增慧</b></sub>
+<br />
+<sub><b>李倾城</b></sub>
+</td>
+<td>0.83883</td>
+<td>30</td>
+<td>DESHUANGMeng</td>
+<td align="center" valign="top" width="14.28%">
+<sub><b>孟德双</b></sub>
+</td>
+<td>0.80462</td>
+</tr>
+  </tbody>
+</table>          
+  </tbody>
+</table>
+
+
 ## Getting Started
 
 Welcome to the course project! To get started with your programming assignments, you'll need to set up your workspace. Here's a step-by-step guide to help you through the process.
