@@ -246,7 +246,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
     </details>
 
-  - Date：[2024/01/14](2023/gwda_coding.pdf) | Video [recording](https://meeting.tencent.com/v2/cloud-record/share?id=b393c27f-63ff-434a-9d65-a78a48af0431&from=3) | Slide: [PDF](2023/gwda_coding.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_5)
+  - Date：[2024/01/14](2023/gwda_coding.pdf) | Video [recording](https://www.bilibili.com/video/BV1BC4y1k79N) | Slide: [PDF](2023/gwda_coding.pdf) or [online](https://slides.com/iphysresearch/gwda_coding_5)
 
 
 ## Kaggle Data Science Competition (Hackathon)
@@ -285,7 +285,7 @@ This course is meticulously designed to provide a solid foundation in programmin
 
 ### Homework
 
-- You can view the complete assignment results from the assignments committed by students with a total score of 6 and 7."
+- You can view the complete assignment results from the assignments committed by students with a total score of 6 and 7.
 
 | Total Score | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
 | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
