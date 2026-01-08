@@ -1,0 +1,97 @@
+434：
+
+class Solution:
+    def countSegments(self, s: str) -> int:
+        c = []  # 用于存储非空单词的列表
+
+        # 如果字符串为空，则直接返回0
+        if len(s) == 0:
+            return 0
+        else:
+            k = s.split(" ")  # 通过空格分割字符串，得到单词列表
+
+            # 遍历单词列表
+            for j in k:
+                if len(j) != 0:  # 如果单词非空，则添加到列表c中
+                    c.append(j)
+
+            return len(c)  # 返回非空单词的数量
+
+
+
+1869：
+
+import collections
+
+class Solution:
+    def checkZeroOnes(self, s: str) -> bool:
+        best = collections.defaultdict(int)  # 使用defaultdict初始化一个存储数字最长连续出现次数的字典
+
+        # 遍历字符串s，使用groupby函数将相邻相同的数字分组，得到数字和对应的连续出现次数
+        for x, t in groupby(s):
+            best[x] = max(best[x], len(list(t)))  # 更新数字x的最长连续出现次数
+
+        # 判断数字1的最长连续出现次数是否大于数字0的最长连续出现次数，返回布尔值
+        return best["1"] > best["0"]
+
+
+1784：
+
+class Solution:
+    def checkOnesSegment(self, s: str) -> bool:
+        ju=True
+        # 自s第二个字符起遍历字符
+        for i in s[1:]:
+            # 判断是否出现"0",并记录
+            if i=="0":
+                ju=False
+            # 若出现"0"后又出现"1"则返回False
+            elif i=="1" and not ju:
+                return False
+        # 循环完成则返回True
+        return True
+
+
+
+
+852：
+
+class Solution:
+    def peakIndexInMountainArray(self, A: List[int]) -> int:
+        # 使用二分查找找到山脉数组的峰顶索引
+        lo, hi = 0, len(A) - 1
+        
+        while lo < hi:
+            mid = (lo + hi) // 2
+            if A[mid] > A[mid + 1]:
+                hi = mid
+            else:
+                lo = mid + 1
+        return lo
+
+
+
+162：
+
+class Solution:
+    def findPeakElement(self, nums: List[int]) -> int:
+        left = 0
+        right = len(nums) - 1
+        
+        # 处理特殊情况，如果数组长度为1，则直接返回索引0
+        if len(nums) == 1:
+            return 0
+        
+        # 使用二分查找找到数组的峰值元素的索引
+        while left <= right:
+            mid = (left + right) >> 1
+            
+            # 判断当前mid是否为峰值元素
+            if (mid == 0 or nums[mid] >= nums[mid - 1]) and (mid == len(nums) - 1 or nums[mid] >= nums[mid + 1]):
+                return mid
+            elif nums[mid] <= nums[mid + 1]:
+                left = mid + 1
+            else:
+                right = mid - 1
+        
+        return -1  # 如果未找到峰值元素，则返回-1
