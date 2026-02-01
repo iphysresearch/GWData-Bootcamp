@@ -1,0 +1,92 @@
+434
+import numpy as py
+class Solution:  # 定义一个类
+    def countSegments(self, s: str) -> int: # 定义函数 输入字符 返回整型
+        return len(s.split()) # 返回segment的个数   split 用于以空格切割字符串,生成list。 len得到list长度，即segment个数。
+    
+oneInstance =  Solution() # 生成一个实例
+
+
+s1 = 'Hi, I am ironman.' # 定义三个字符串
+s2 = 'I am Bond! James Bond!'
+s3 = 'Oh Be A Fine Girl Kiss Me!'
+
+oneInstance.countSegments(s3) # 调用函数 得到segment个数
+
+1869
+class Solution: # 定义一个类
+    def checkZeroOnes(self, s: str) -> bool:# 定义函数 输入字符 返回bool
+        longestones = max(s.split('0')) # 返回最长的1串  split用于以0切割字符串,生成list。max 用于得到list里最长的1字符串。
+        longestzeros = max(s.split('1')) # 返回最长的0串  split用于以1切割字符串,生成list。max 用于得到list里最长的0字符串。
+        if len(longestones) > len(longestzeros): # 如果最长的1串长于最长的0串，返回True,否则返回False。
+            return True
+        else:
+            return False
+
+
+s1 = '110101111000'  # 定义三个字符串     
+s2 = '11100001100'
+s3 = '11110000'
+
+oneInstance =  Solution() # 生成一个实例
+oneInstance.checkZeroOnes(s3)  # 调用函数 
+
+1784
+class Solution(object): # 定义一个类
+    def checkOnesSegment(self, s):  # 定义函数 
+        """
+        :type s: str
+        :rtype: bool
+        """
+        #字符串以1开头 所以遇到 01就有第二段1
+        return '01' not in s # 如果没有01 返回True
+        
+
+s1 = '110101111000'  # 定义三个字符串   
+s2 = '111000000'
+s3 = '100100'
+
+oneInstance =  Solution() # 生成一个实例
+oneInstance.checkOnesSegment(s3)  # 调用函数
+
+852
+class Solution: # 定义一个类
+    def peakIndexInMountainArray(self, arr: list[int]) -> int:  # 定义函数 
+        """
+        :type arr: List[int]
+        :rtype: int
+        """
+        peak = max(arr)  # 找到peak
+        return arr.index(peak)  # 提取peak的index
+    
+             
+arr1 = [1,2,4,56,8,6,0]. # 定义list 
+arr2 = [0,2,7,8,18,6,5,0]
+
+oneInstance =  Solution() # 生成一个实例
+oneInstance.peakIndexInMountainArray(arr2)  # 调用函数 得到peak的index
+
+162
+class Solution:
+    def findPeakElement(self, nums: list[int]) -> int:
+        n = len(nums) # nums的
+        low = 0 # 左边界index
+        high = n-1 # 右边界index
+        
+        while low <= high:
+          mid = (low + high)>>1 # 中间值的index
+          if (mid == 0 or nums[mid] > nums[mid-1]) and (mid == n-1 or nums[mid] > nums[mid+1]): 
+              return mid # 如果mid对应峰值 返回mid 
+          elif nums[mid] < nums[mid+1]: 
+              low = mid+1 # 如果峰值在mid的右边， 更新左边界到mid的右临
+          else:
+              high = mid # 如果峰值在mid的左边， 更新左边界到mid的左临
+          #注意: 更新左边界的时候如果仅仅让 low = mid,  峰值在右边界的时候可能造成死循环， 因为 >> 得到的整数比(low + high)的一半小
+     
+
+num1 = [1,2,4,56,8,6,8,0] #定义list
+num2 = [0,2,7,8,18,6,5,9,8,5,0]
+num3 = [8,7, 6, 4, 10]
+num4 = [5,4,6,9,20]
+oneInstance =  Solution() # 生成一个实例
+oneInstance.findPeakElement(num3)  # 调用函数 得到peak的index

@@ -1,0 +1,109 @@
+434 
+class Solution:
+    def countSegments(self, s: str) -> int:
+        #初始化计数器。
+        coun=0
+        #排除空串（空串直接跳到return），防止s[0]判断报错。
+        if s!='':
+            #如果第一个不是空格字符，则计数器加1，防止for循环少记数（例如：'bob'）。
+            if s[0]!=" ":
+                coun+=1
+            #检索“空格+非空格”序列，若有则记数器加1，首个字符不为空格的会被少记数1，这在上面已经处理过。
+            for i in range(len(s)-1):
+                if(s[i]==" " and  s[i+1]!=" "):
+                    coun+=1
+        #返回coun的值
+        return coun
+
+1869
+class Solution:
+    def checkZeroOnes(self, s: str) -> bool:
+        #初始循环化计数器i，连续子串长度计数器count，当前最长子串长cm，序列是0还是1由sign表示（'0'：-1,'1':1），counts储存sign数值。
+        i = 0
+        count = 1
+        cm = 1
+        counts=1
+        sign=1
+        #开头为0，给sign赋值-1。
+        if s[0]=='0':
+            sign=-1
+        #该循环用来计算连续最长的子串（count），并且将其与当前cm比较，若它大于cm，则更新cm=count，counts=sign。
+        while(i<len (s)-1):
+            #判断记数是否停止，更新i的值。
+            if s[i] == s[i + 1]:
+                count += 1
+                i+=1
+            else:
+                #将上述记数count与cm比较，若大于则更新cm、counts；若等于，则看sign符号-1代表0，可以更新cm，counts;小于则保持cm，counts。
+                if count > cm or (count == cm and -sign+1):
+                    cm = count
+                    counts=sign
+                #重置count计数器。
+                count = 1
+                sign *= -1
+                i+=1
+        #防止最后一个前一个字符相同而没被记数，上面只判断到s长度-1。
+        if count>cm or (count==cm and -sign+1):
+            counts=sign
+        return bool(counts+1)
+
+1874
+class Solution:
+    def checkOnesSegment(self, s: str) -> bool:
+        #初始化计数器i。
+        i=0
+        #判断0后面下一个1是否出现，若出现则返回False，若不出现则为True。
+        while i<(len(s)-2):
+            i+=1
+            if s[i]=='0' and s[i+1]!='0':
+                return False
+        return True           
+
+852
+class Solution:
+    def peakIndexInMountainArray(self, arr: List[int]) -> int:
+        #这里使用二分法来找最大值，leftb、rightb为左右边界、mid为中间值。
+        rightb = len(arr)
+        leftb = 0
+        #当左边界小于右边界值执行下面循环
+        while rightb>leftb:
+            #计算中间值。
+            mid = (rightb + leftb) // 2
+            #判断中间值右边值，若它小于右边，则说明最大值在中间值右边，更新右边界。
+            if arr[mid] < arr[mid + 1]:
+                leftb = mid
+            #判断中间值右边值，若它大于于左边，则说明最大值在中间值左边，更新左边界。
+            else:
+                rightb = mid
+                #若它还大于于左边，则说明此时mid即为最大值的索引。
+                if arr[mid] > arr[mid-1]:
+                    return mid
+
+162
+class Solution:
+    def findPeakElement(self, nums: List[int]) -> int:
+        #获取字符串长度。
+        rightb = len(nums)
+        leftb = 0
+        #这里套用852解法，先把长度小于3的去除（直接返回对应值）。
+        if rightb==1:
+            return 0
+        if rightb==2:
+            return int(nums[1]>nums[0])
+        #排除最大值在两端情况。
+        if nums[0]>nums[1]:
+            return 0
+        if nums[-1]>nums[-2]:
+            return rightb-1
+        #套用852方法，给出一个峰值。
+        while rightb>leftb:
+            mid = (rightb + leftb) // 2
+            if nums[mid] < nums[mid + 1]:
+                leftb = mid
+            else:
+                rightb = mid
+                if nums[mid] > nums[mid-1]:
+                    return mid
+
+
+            

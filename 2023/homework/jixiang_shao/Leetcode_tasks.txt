@@ -1,0 +1,70 @@
+
+434: Number of Segments in a String
+
+class Solution(object): # 初始化类
+    def countSegments(self, s): # 定义函数
+        return (len(s.split())) # 利用python 的split() 函数以空格来分隔字符串，并输出分分隔后的字符串单词个数，split()函数，不加参数就是默认用空格来分隔
+        
+
+1869. Longer Contiguous Segments of Ones than Zeros
+class Solution(object):
+    def checkZeroOnes(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        s0 = s.split('1')    #字符串以'1'分割，那么剩下的字符串就是包含'0'的
+        s1 = s.split('0')    #字符串以'0'分割，那么剩下的字符串就是包含'1'的
+        
+        num_0  = [ len(x) for x in s0 ]   #输出s0 这个列表中每一元素的长度
+        num_1  = [ len(x) for x in s1 ]   #输出s1 这个列表中每一元素的长度
+        
+        return (max(num_1) > max(num_0))  #如果‘1’连续长度的最大值大于‘0’的，输出为True，否则为False
+        
+
+1784. Check if Binary String Has at Most One Segment of Ones
+class Solution(object):
+    def checkOnesSegment(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        if s[0]=='0': #首先进行判断，字符串开头是否为‘0’，按照题干要求，必须要以‘1’开始
+            print ('String should not begin with 0, please re-enter a string')
+        else:
+            s1 = s.split('0') # 以‘0’ 为分隔符，就是剩下包含‘1’的，当然长度可能为0,
+            num = [len(x) for x in s1] # 输出列表每个元素的长度
+            if max(num)>1:             # 如果长度有大于1的，满足题干的contiguous segment of ones。 输出True
+                return True            # 我觉得这个题目leetcode 评判有问题，它给出的example 如果s=‘1’,输出竟然为True，这明显是错的。
+            else:
+                return False
+        
+        
+852. Peak Index in a Mountain Array
+class Solution(object):
+    def peakIndexInMountainArray(self, arr):
+        """
+        :type arr: List[int]
+        :rtype: int
+        """
+        if len(arr) <3:      # 如果输入数组小于3,要求重新输入
+            print ('The array is too short, please re-enter a longer array')
+        else:
+            return (arr.index(max(arr)))  # 返回数组最大值的index
+            
+
+162. Find Peak Element
+
+class Solution:
+    def findPeakElement(self, nums):
+        left, right = 0, len(nums) - 1     #left，right 是边界的index
+        while left < right:                # 对于任何左边界小于右边界的情况，
+            mid = int ((left + right)/2)   # 设置中间值，
+            if nums[mid] > nums[mid + 1]:  # 如果中间值大于它右边的值，那么这个num[mid] 就是peak的候选体，现在我们就需要判断它左边的值是不是小于它
+                right = mid                # 把mid赋值给右边界，再进行下一轮的比较。
+            else:                            
+                left = mid + 1             #比较到最后，会终于找到一个元素，nums[index-1]<nums[index],那么peak就是nums[index]
+        return left
+
+
+

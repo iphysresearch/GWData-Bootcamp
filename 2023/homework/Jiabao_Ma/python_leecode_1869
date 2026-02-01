@@ -1,0 +1,33 @@
+class Solution:
+    def checkZeroOnes(self, s: str) -> bool:
+         ones_segments = s.split('0') # 将字符串按照0分割，得到一组1的段落
+         #移除空字符 
+         if ones_segments[-1] == '':
+             ones_segments.pop()
+    # 计算1的段落数量
+         ones_count = len(ones_segments)
+   
+            
+    
+    # 如果1的段落数大于1，说明至少有一个0，返回False
+         if ones_count == 0:
+                 max_ones_length = 0                   
+         else :
+    # 否则，找到最长的1的段落
+                 max_ones_length = max(len(segment) for segment in ones_segments)
+                 
+    # 将字符串按照1分割，得到一组0的段落
+         zeros_segments = s.split('1')
+    # 计算0的段落数量
+         zeros_count = len(zeros_segments)
+    
+    # 如果0的段落数量大于1，说明至少有一个1，返回False
+         if zeros_count == 0:
+                max_zeros_length = 0 
+    # 否则，找到最长的0的段落
+         else :
+                max_zeros_length = max(len(segment) for segment in zeros_segments)
+               
+    
+    # 比较最长的1的段落长度和最长的0的段落长度
+         return max_ones_length > max_zeros_length

@@ -1,0 +1,5 @@
+class Solution:
+    def countSegments(self, s: str) -> int:
+            segments = s.split()# 分割空字符
+            non_empty_segments = filter(lambda x: x != '', segments) # 删除空字符
+            return len(list(non_empty_segments)) #计数
